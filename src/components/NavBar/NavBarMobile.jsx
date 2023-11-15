@@ -1,22 +1,26 @@
 import React, { useState } from "react";
 import css from "./NavBarMobile.module.css";
 
-import logo from "../../images/LogoMobile.png";
+import logoMobile from "../../images/LogoMobile.png";
+import logoTablet from "../../images/LogoTablet.png";
 import { TfiClose } from "react-icons/tfi";
 import { FaBars } from "react-icons/fa";
 import ModalMenu from "../ModalMenu/ModalMenu";
+import { useMediaQuery } from "react-responsive";
 
 const NavBarMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+  
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
   return (
-    <>
+    <div>
       <div className={css.wrapper}>
-        <img className={css.logo} src={logo} alt="logoPokręcona" />
+        <img className={css.logo} src={isMobile ? logoMobile : logoTablet} alt="logoPokręcona" />
         <button type="button" onClick={toggleMenu} className={css.buttonMenu}>
           {showMenu ? (
             <TfiClose className={css.iconStyle} />
@@ -26,8 +30,9 @@ const NavBarMobile = () => {
         </button>
       </div>
       <div className={css.line}></div>
+      
       {showMenu ? <ModalMenu /> : null}
-    </>
+    </div>
   );
 };
 

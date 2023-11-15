@@ -1,33 +1,194 @@
 .head__background {
-  background-image: url("../../images/headerMobile1x.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/headerMobile1x.jpg");
   background-size: cover;
-  background-position: center;
-  padding-top: 20px;
-  padding-bottom: 100px;
-   @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: url("../../images/headerMobile2x.jpg");
-      }
+  background-position: center center;
+  padding-block: 18px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerMobile2x.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerTablet1x.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerTablet2x.jpg");
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerLaptop1x.jpg");
+    padding-block: 25px;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerLaptop2x.jpg");
+    }
+  }
+}
+.headAbout__background {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/headerAboutMobile1x.jpg");
+  background-size: cover;
+  background-position: 0 20%;
+  padding-block: 18px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerAboutMobile2x.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerAboutTablet1x.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerAboutTablet2x.jpg");
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerAboutDesctop1x.jpg");
+    padding-block: 25px;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerAboutDesctop2x.jpg");
+    }
+  }
+}
+.headPortfolio__background {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../../images/headerPortfolioMobile1x.jpg");
+  background-size: cover;
+  background-position: 0 40%;
+  padding-block: 18px;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerPortfolioMobile2x.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerPortfolioTablet1x.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerPortfolioTablet2x.jpg");
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../images/headerPortfolioDesctop1x.jpg");
+    padding-block: 25px;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../images/headerPortfolioDesctop2x.jpg");
+    }
+  }
 }
 .container {
-  padding: 0px 20px;
+  padding: 0px 16px;
+  @media screen and (min-width: 768px) {
+    padding: 0px 32px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0px 100px;
+  }
+}
+.headContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
 }
 
 .title {
-    display: block;
   text-align: center;
-  margin-top: 50px;
 }
 .titleSecond {
   font-size: 14px;
   font-weight: lighter;
+  color: #FFFFFF;
+  text-transform: uppercase;
   letter-spacing: 1.4px;
-
-  margin-bottom: 20px;
+  margin-bottom: 14px;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
 }
 .titleFirst {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: bold;
   letter-spacing: 0.9px;
   background-image: linear-gradient(
@@ -37,4 +198,25 @@
   );
   -webkit-background-clip: text;
   color: transparent;
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
+}
+
+.headerContact {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.headerContact__text {
+  font-size: 10px;
+  font-weight: lighter;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
