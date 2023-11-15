@@ -1,0 +1,28 @@
+.logo {
+  width: 75px;
+  height: 26px;
+}
+.buttonMenu {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  width: 20px;
+  height: 16px;
+  z-index: 1;
+}
+.buttonMenu:focus {
+ outline: none;
+}
+.iconStyle {
+  fill: rgba(208, 169, 86, 1);
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 50%);
+}

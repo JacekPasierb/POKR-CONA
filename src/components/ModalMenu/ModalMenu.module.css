@@ -1,0 +1,21 @@
+.menuWrapper {
+  display: block;
+  background-color: #33333365;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+.menu {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMenu {
+  display: flex;
+  flex-direction: column;
+}
