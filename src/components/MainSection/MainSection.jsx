@@ -38,7 +38,7 @@ const MainSection = () => {
       <ul className={css.cards}>
         <li className={css.card}>
           <Service
-            title={"Modelowanie"}
+            title={"Modelowanie Ciała"}
             backgroundImage={getBackgroundImage("modeling")}
           />
         </li>
