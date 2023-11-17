@@ -1,0 +1,39 @@
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+.titleSecond {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-bottom: 14px;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+.titleFirst {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  background-image: linear-gradient(
+    to right,
+    rgba(148, 124, 81, 1),
+    rgba(208, 169, 86, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
+}

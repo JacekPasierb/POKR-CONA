@@ -15,14 +15,16 @@ const Header = () => {
     <header
       className={`${pathname === "/" && css.head__background} ${
         pathname === "/about" && css.headAbout__background
-      } ${pathname === "/portfolio" && css.headPortfolio__background}`}
+      } ${pathname === "/portfolio" && css.headPortfolio__background}  ${
+        pathname === "/pricing" && css.head__background
+      } ${pathname === "/procedures" && css.head__background}`}
     >
       <div className={`${css.container} ${css.headContent}`}>
         {!isLaptop ? <NavBarMobile /> : <NavBarDesctop />}
 
         <div className={css.title}>
-        <h1 className={css.titleSecond}>Karolina Żamojtel</h1>
-       
+          <h1 className={css.titleSecond}>Karolina Żamojtel</h1>
+
           <h2 className={css.titleFirst}>Gabinet Kosmetyczny</h2>
         </div>
         <p className={css.headerContact}>

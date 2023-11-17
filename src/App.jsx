@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router';
+import "./App.css";
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
@@ -10,7 +11,7 @@ import ProceduresPage from './pages/ProceduresPage/ProceduresPage';
 
 const App = () => {
   return (
-    <>
+    <div className="styleSection">
       <Header/>
       <Routes>
         <Route path='/' element={ <HomePage/>} />
@@ -20,7 +21,7 @@ const App = () => {
         <Route path='/procedures' element={ <ProceduresPage/>} />
       </Routes>
       <Footer/>
-    </>
+    </div>
   )
 }
 

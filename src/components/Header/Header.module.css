@@ -44,8 +44,8 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
+          rgba(47, 48, 58, 0.750),
+          rgba(47, 48, 58, 0.750)
         ),
         url("../../images/headerLaptop2x.jpg");
     }

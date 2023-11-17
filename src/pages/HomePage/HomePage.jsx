@@ -1,8 +1,9 @@
 import React from 'react'
+import MainSection from '../../components/MainSection/MainSection'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div><MainSection/></div>
   )
 }
 
