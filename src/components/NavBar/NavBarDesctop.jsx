@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import css from "./NavBarDesctop.module.css";
 import logoDesctop from "../../images/LogoLaptop.png";
+import Line from "../Line/Line";
 
 const NavBarDesctop = () => {
   return (
@@ -26,9 +27,11 @@ const NavBarDesctop = () => {
             Poznaj Zabiegi
           </NavLink>
         </nav>
-        <button type="button" className={css.button}>Rezerwuj wizytę</button>
+        <button type="button" className={css.button}>
+          Rezerwuj wizytę
+        </button>
       </div>
-      <div className={css.line}></div>
+      <Line color={`rgba(255, 255, 255, 50%) `} />
     </div>
   );
 };

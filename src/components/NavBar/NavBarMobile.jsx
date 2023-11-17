@@ -6,6 +6,7 @@ import logoTablet from "../../images/LogoTablet.png";
 import { TfiClose } from "react-icons/tfi";
 import { FaBars } from "react-icons/fa";
 import ModalMenu from "../ModalMenu/ModalMenu";
+import Line from "../Line/Line.jsx";
 import { useMediaQuery } from "react-responsive";
 
 const NavBarMobile = () => {
@@ -29,7 +30,7 @@ const NavBarMobile = () => {
           )}
         </button>
       </div>
-      <div className={css.line}></div>
+      <Line color={`rgba(255, 255, 255, 50%) `} />
       
       {showMenu ? <ModalMenu /> : null}
     </div>

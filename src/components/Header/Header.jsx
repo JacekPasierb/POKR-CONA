@@ -27,12 +27,12 @@ const Header = () => {
 
           <h2 className={css.titleFirst}>Gabinet Kosmetyczny</h2>
         </div>
-        <p className={css.headerContact}>
+        <div className={css.headerContact}>
           <p className={css.headerContact__text}>
             ul. partyzantów 31, 22-500 Hrubieszów
           </p>
           <p className={css.headerContact__text}>+48 666 589 222</p>
-        </p>
+        </div>
       </div>
     </header>
   );
