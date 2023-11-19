@@ -7,7 +7,9 @@ import ReviewsSection from "../../components/ReviewsSection/ReviewsSection";
 const HomePage = () => {
   return (
     <div className={`${css.container} ${css.gap}`}>
-      <MainSection /> <Line color={`rgba(0, 0, 0, 50%) `} /><ReviewsSection/>
+      <MainSection /> <Line color={`rgba(0, 0, 0, 50%) `} />
+      <ReviewsSection />
+      <Line color={`rgba(0, 0, 0, 50%) `} />
     </div>
   );
 };

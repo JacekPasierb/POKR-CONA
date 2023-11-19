@@ -10,6 +10,7 @@ import PricingPage from "./pages/PricingPage/PricingPage";
 import ProceduresPage from "./pages/ProceduresPage/ProceduresPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import WelcomePage from "./pages/WelcomePage/WelcomePage";
+import LastSection from "./components/LastSection/LastSection";
 
 const App = () => {
   const [showModalWelcome, setShowModalWelcome] = useState(false);
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/procedures" element={<ProceduresPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
+          <LastSection/>
           <Footer />
         </>
       )}

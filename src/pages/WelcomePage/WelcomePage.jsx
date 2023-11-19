@@ -48,7 +48,7 @@ const WelcomePage = () => {
         <div className={css.content}>
           <img src={background} alt="Logo" className={css.logo} />
           <div className={css.title}>
-            <h1 className={css.titleSecond}>Karolina Żamojtel</h1>
+            <h2 className={css.titleSecond}>Karolina Żamojtel</h2>
 
             <h2 className={css.titleFirst}>Gabinet Kosmetyczny</h2>
           </div>
