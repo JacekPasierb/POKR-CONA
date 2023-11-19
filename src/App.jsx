@@ -21,23 +21,27 @@ const App = () => {
     }
     const timeoutId = setTimeout(() => {
       setShowModalWelcome(false);
-    }, 30000);
+    }, 3000);
     return () => clearTimeout(timeoutId);
   }, []);
 
   return (
     <div className="styleSection">
-      {showModalWelcome && <WelcomePage/>}
-      <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/pricing" element={<PricingPage />} />
-        <Route path="/procedures" element={<ProceduresPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
-      <Footer />
+      {showModalWelcome && <WelcomePage />}
+      {!showModalWelcome && (
+        <>
+          <Header />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="/procedures" element={<ProceduresPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+          <Footer />
+        </>
+      )}
     </div>
   );
 };

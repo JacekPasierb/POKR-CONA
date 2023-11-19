@@ -1,9 +1,55 @@
 .welcomePage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-z-index: 9999;
-    background-color: rgb(0, 0, 0);
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  padding: 0px 16px;
+  @media screen and (min-width: 768px) {
+    padding: 0px 32px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0px 100px;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 343px;
+  height: 346px;
+}
+.title {
+  text-align: center;
+}
+.titleSecond {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-bottom: 14px;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+.titleFirst {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  background-image: linear-gradient(
+    to right,
+    rgba(148, 124, 81, 1),
+    rgba(208, 169, 86, 1)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
 }
