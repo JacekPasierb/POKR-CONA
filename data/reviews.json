@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "star": 2,
+    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
+    "author": "Marlena Ł",
+    "data": "8.11.2023"
+  },
+  {
+    "id": 2,
+    "star": 2,
+    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
+    "author": "Marlena Ł",
+    "data": "8.11.2023"
+  },
+  {
+    "id": 3,
+    "star": 2,
+    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
+    "author": "Marlena Ł",
+    "data": "8.11.2023"
+  }
+]
