@@ -22,7 +22,7 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../../images/lastTablet1x.jpg");
-
+padding-block: 32px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -39,7 +39,7 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../../images/lastDesctop1x.jpg");
-    padding-block: 25px;
+    padding-block: 100px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
