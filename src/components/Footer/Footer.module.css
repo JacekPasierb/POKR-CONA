@@ -1,19 +1,33 @@
 .footer {
-     padding-block: 18px;
-      @media screen and (min-width: 768px) {
-  padding-block: 32px;
+  padding-block: 18px;
+  @media screen and (min-width: 768px) {
+    padding-block: 32px;
   }
   @media screen and (min-width: 1200px) {
     padding-block: 100px;
   }
 }
-.container {
+/* .container {
   padding: 0px 16px;
   @media screen and (min-width: 768px) {
     padding: 0px 32px;
   }
   @media screen and (min-width: 1200px) {
     padding: 0px 100px;
+  }
+} */
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
   }
 }
 .footerBoxes {
@@ -24,9 +38,8 @@
   text-align: center;
   @media screen and (min-width: 768px) {
     flex-direction: row;
-    
-    
-    justify-content:space-around;
+
+    justify-content: space-around;
     align-items: baseline;
   }
 }
@@ -40,15 +53,15 @@
   );
   -webkit-background-clip: text;
   color: transparent;
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 32px;
   }
 }
 .footerBox__description {
-    font-size: 14px;
-    font-weight: light;
-    letter-spacing: 1.4px;
-    background-image: linear-gradient(
+  font-size: 14px;
+  font-weight: light;
+  letter-spacing: 1.4px;
+  background-image: linear-gradient(
     to right,
     rgba(148, 124, 81, 1),
     rgba(208, 169, 86, 1)
@@ -56,20 +69,25 @@
   -webkit-background-clip: text;
   color: transparent;
 
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 22px;
   }
 }
 .footerSocial {
   text-align: center;
-
 }
 .footerBox__icons {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    justify-content: center;
-    margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 14px;
+   @media screen and (min-width: 768px) {
+    gap: 35px;
+  }
+   @media screen and (min-width: 1200px) {
+    gap: 100px;
+  }
 }
 .footerRights {
   text-align: center;
@@ -78,8 +96,23 @@
   width: 50px;
   height: 50px;
 }
+.insta {
+  background-color: #f9ed32;
+  background-image: linear-gradient(
+    40deg,
+    rgba(249, 237, 50, 1) 0%,
+    rgba(238, 42, 123, 1) 56%,
+    rgba(0, 42, 255, 1) 100%
+  );
+  
+  border-radius: 8px;
+}.fb {
+  fill: #ffffff;
+  background-color: #1877f2;
+    border-radius: 8px;
+}
 .gap {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }

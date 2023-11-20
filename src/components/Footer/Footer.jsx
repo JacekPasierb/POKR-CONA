@@ -16,7 +16,9 @@ const Footer = () => {
             <p className={css.footerBox__description}>
               Telefon: (+48) 666 589 222
             </p>
-            <p className={css.footerBox__description}>E-mail: pokreconastylistka@gmail.com</p>
+            <p className={css.footerBox__description}>
+              E-mail: pokreconastylistka@gmail.com
+            </p>
           </div>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Zapraszamy</h4>
@@ -25,19 +27,18 @@ const Footer = () => {
             <p className={css.footerBox__description}>Sobota: 8:00 - 14:00</p>
             <p className={css.footerBox__description}>Niedziela: Zamknięte </p>
           </div>
-          
         </div>
         <Line color={`rgba(0, 0, 0, 50%) `} />
         <div className={css.footerSocial}>
           <h4 className={css.footerBox__title}> Śledź nas w sieci</h4>
           <div className={css.footerBox__icons}>
-            <svg className={css.icon}>
+            <svg className={`${css.icon} ${css.fb}`}>
               <use href={sprite + `#icon-Facebook`}></use>
             </svg>
-            <svg className={css.icon}>
+            <svg className={`${css.icon} ${css.insta}`}>
               <use href={sprite + `#icon-Instagram`}></use>
             </svg>
-            <svg className={css.icon}>
+            <svg className={`${css.icon} ${css.booksy}`}>
               <use href={sprite + `#icon-booksy-seeklogocom`}></use>
             </svg>
           </div>

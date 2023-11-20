@@ -44,8 +44,8 @@
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          rgba(47, 48, 58, 0.750),
-          rgba(47, 48, 58, 0.750)
+          rgba(47, 48, 58, 0.75),
+          rgba(47, 48, 58, 0.75)
         ),
         url("../../images/headerLaptop2x.jpg");
     }
@@ -157,13 +157,27 @@
     }
   }
 }
-.container {
+/* .container {
   padding: 0px 16px;
   @media screen and (min-width: 768px) {
     padding: 0px 32px;
   }
   @media screen and (min-width: 1200px) {
     padding: 0px 100px;
+  }
+} */
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
   }
 }
 .headContent {
@@ -179,7 +193,7 @@
 .titleSecond {
   font-size: 14px;
   font-weight: lighter;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1.4px;
   margin-bottom: 14px;
