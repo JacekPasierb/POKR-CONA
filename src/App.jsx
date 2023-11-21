@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/procedures" element={<ProceduresPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-          <LastSection/>
+          <LastSection />
           <Footer />
         </>
       )}

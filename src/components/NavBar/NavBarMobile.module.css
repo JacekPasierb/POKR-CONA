@@ -23,10 +23,8 @@
   fill: rgba(208, 169, 86, 1);
   width: 33px;
   height: 26px;
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 67px;
     height: 53px;
   }
 }
-
-

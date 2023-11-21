@@ -1,0 +1,26 @@
+:root {
+  --color-text-main: #ffffff;
+  --color-text-second: #000000;
+  --color-text-third:rgba(208, 169, 86, 1);
+
+  --color-background-main: linear-gradient(
+    to right,
+    rgba(148, 124, 81, 1),
+    rgba(208, 169, 86, 1)
+  );
+  --color-background-second: rgba(0, 0, 0, 0.5);
+
+  --color-background-line-main:rgba(0, 0, 0, 50%);
+  --color-background-line-second:rgba(255, 255, 255, 50%);
+  --color-background-line-third:rgba(208, 169, 86, 1);
+
+  --font-size-main-l: 60px;
+  --font-size-main-s: 32px;
+  --font-size-second-l: 28px;
+  --font-size-second-s: 14px;
+  --font-size-third: 30px;
+
+  --font-weight-normal: normal;
+  --font-weight-bold: bold;
+  --font-weight-light: light;
+}

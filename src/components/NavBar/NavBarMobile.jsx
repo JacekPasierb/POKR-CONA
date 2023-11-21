@@ -13,7 +13,7 @@ const NavBarMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
-  
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -21,7 +21,11 @@ const NavBarMobile = () => {
   return (
     <div>
       <div className={css.wrapper}>
-        <img className={css.logo} src={isMobile ? logoMobile : logoTablet} alt="logoPokręcona" />
+        <img
+          className={css.logo}
+          src={isMobile ? logoMobile : logoTablet}
+          alt="logoPokręcona"
+        />
         <button type="button" onClick={toggleMenu} className={css.buttonMenu}>
           {showMenu ? (
             <TfiClose className={css.iconStyle} />
@@ -31,7 +35,7 @@ const NavBarMobile = () => {
         </button>
       </div>
       <Line color={`rgba(255, 255, 255, 50%) `} />
-      
+
       {showMenu ? <ModalMenu /> : null}
     </div>
   );

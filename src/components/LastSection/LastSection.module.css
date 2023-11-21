@@ -22,7 +22,7 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../../images/lastTablet1x.jpg");
-padding-block: 32px;
+    padding-block: 32px;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -44,8 +44,8 @@ padding-block: 32px;
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          rgba(47, 48, 58, 0.750),
-          rgba(47, 48, 58, 0.750)
+          rgba(47, 48, 58, 0.75),
+          rgba(47, 48, 58, 0.75)
         ),
         url("../../images/lastDesctop2x.jpg");
     }
@@ -65,13 +65,11 @@ padding-block: 32px;
   margin: 0 auto;
   max-width: 100%;
   @media screen and (min-width: 480px) {
-    width: 480px;
   }
   @media screen and (min-width: 768px) {
-    width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: calc(1200px - 32px);
   }
 }
 .title {
@@ -80,7 +78,7 @@ padding-block: 32px;
 .titleSecond {
   font-size: 14px;
   font-weight: lighter;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1.4px;
   margin-bottom: 14px;

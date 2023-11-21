@@ -7,12 +7,12 @@
     padding: 0px 100px;
   }
 } */
-.container {
+/* .container {
   padding: 0 16px;
   margin: 0 auto;
   max-width: 100%;
   @media screen and (min-width: 480px) {
-    width: 480px;
+    width: calc(480px - 32px);
   }
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -20,7 +20,7 @@
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
-}
+} */
 .cards {
   display: flex;
   flex-direction: column;
@@ -28,7 +28,6 @@
 .card {
   width: 100%;
   margin-bottom: 28px;
-  
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .cards {
@@ -41,7 +40,6 @@
   .card {
     width: calc(50% - 32px);
     margin-bottom: 32px;
-   
   }
 }
 @media screen and (min-width: 1200px) {
@@ -55,6 +53,5 @@
   .card {
     width: calc(33.33% - 32px); /* Uwzględnienie marginesu między elementami */
     margin-bottom: 32px;
-  
   }
 }

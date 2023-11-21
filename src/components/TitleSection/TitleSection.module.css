@@ -1,3 +1,5 @@
+@import "../../stylesheet/variables.css";
+
 .titleSection {
   display: flex;
   flex-direction: column;
@@ -12,28 +14,24 @@
 }
 
 .titleSecond {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #000000;
+  font-size: var(--font-size-second-s);
+  font-weight: var(--font-weight-light);
+  color: var(--color-text-second);
   text-transform: uppercase;
   letter-spacing: 1.4px;
   margin-bottom: 14px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: var(--font-size-second-l);
   }
 }
 .titleFirst {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: var(--font-size-main-s);
+  font-weight: var(--font-weight-bold);
   letter-spacing: 0.9px;
-  background-image: linear-gradient(
-    to right,
-    rgba(148, 124, 81, 1),
-    rgba(208, 169, 86, 1)
-  );
+  background-image:var(--color-background-main);
   -webkit-background-clip: text;
   color: transparent;
   @media screen and (min-width: 768px) {
-    font-size: 60px;
+    font-size: var(--font-size-main-l);
   }
 }

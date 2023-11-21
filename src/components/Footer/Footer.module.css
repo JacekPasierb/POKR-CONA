@@ -21,13 +21,11 @@
   margin: 0 auto;
   max-width: 100%;
   @media screen and (min-width: 480px) {
-    width: 480px;
   }
   @media screen and (min-width: 768px) {
-    width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: calc(1200px - 32px);
   }
 }
 .footerBoxes {
@@ -82,10 +80,10 @@
   gap: 16px;
   justify-content: center;
   margin-top: 14px;
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     gap: 35px;
   }
-   @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     gap: 100px;
   }
 }
@@ -104,12 +102,13 @@
     rgba(238, 42, 123, 1) 56%,
     rgba(0, 42, 255, 1) 100%
   );
-  
+
   border-radius: 8px;
-}.fb {
+}
+.fb {
   fill: #ffffff;
   background-color: #1877f2;
-    border-radius: 8px;
+  border-radius: 8px;
 }
 .gap {
   display: flex;
