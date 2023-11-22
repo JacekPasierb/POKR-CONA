@@ -23,9 +23,10 @@
   @media screen and (min-width: 480px) {
   }
   @media screen and (min-width: 768px) {
+    padding: 0 32px;
   }
   @media screen and (min-width: 1200px) {
-    max-width: calc(1200px - 32px);
+    max-width: calc(1200px - 100px);
   }
 }
 .footerBoxes {
