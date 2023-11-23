@@ -111,6 +111,11 @@
   background-color: #1877f2;
   border-radius: 8px;
 }
+.booksy {
+  fill: #ffffff;
+  background-color: #0B9EA8;
+  border-radius: 8px;
+}
 .gap {
   display: flex;
   flex-direction: column;
