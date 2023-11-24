@@ -1,3 +1,5 @@
+@import "../../stylesheet/variables.css";
+
 .footer {
   padding-block: 18px;
   @media screen and (min-width: 768px) {
