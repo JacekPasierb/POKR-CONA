@@ -1,3 +1,5 @@
+@import "../../stylesheet//variables.css";
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -20,7 +22,7 @@
   outline: none;
 }
 .iconStyle {
-  fill: rgba(208, 169, 86, 1);
+  fill: var(--color-primary);
   width: 33px;
   height: 26px;
   @media screen and (min-width: 768px) {

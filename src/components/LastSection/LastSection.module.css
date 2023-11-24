@@ -1,3 +1,5 @@
+@import "../../stylesheet/variables.css";
+
 .section__background {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),

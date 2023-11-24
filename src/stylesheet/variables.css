@@ -1,7 +1,33 @@
 :root {
+  --color-main: #ffffff;
+  --color-primary: rgba(208, 169, 86, 1);
+  --color-secodary: #000000;
+  --color-background-gradient: linear-gradient(
+    to right,
+    rgba(148, 124, 81, 1),
+    rgba(208, 169, 86, 1)
+  );
+
+  --color-background-button: linear-gradient(
+    to right,
+    rgba(148, 124, 81, 1),
+    rgba(208, 169, 86, 1)
+  );
+  --color-text-button: #ffffff;
+  --font-size-button: 14px;
+
+  --font-size-title-S: 14px;
+  --font-size-subtitle-S: 32px;
+
+  --font-size-title-M: 28px;
+  --font-size-subtitle-M: 60px;
+
+  --font-size-text: 14px;
+  --font-size-text-M: 18px;
+
   --color-text-main: #ffffff;
   --color-text-second: #000000;
-  --color-text-third:rgba(208, 169, 86, 1);
+  --color-text-third: rgba(208, 169, 86, 1);
 
   --color-background-main: linear-gradient(
     to right,
@@ -10,9 +36,9 @@
   );
   --color-background-second: rgba(0, 0, 0, 0.5);
 
-  --color-background-line-main:rgba(0, 0, 0, 50%);
-  --color-background-line-second:rgba(255, 255, 255, 50%);
-  --color-background-line-third:rgba(208, 169, 86, 1);
+  --color-background-line-main: rgba(0, 0, 0, 50%);
+  --color-background-line-second: rgba(255, 255, 255, 50%);
+  --color-background-line-third: rgba(208, 169, 86, 1);
 
   --font-size-main-l: 60px;
   --font-size-main-s: 32px;

@@ -1,3 +1,5 @@
+@import "../../stylesheet/variables.css";
+
 .head__background {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -190,29 +192,26 @@
   text-align: center;
 }
 .titleSecond {
-  font-size: 14px;
+  font-size: var(--font-size-title-S);
   font-weight: lighter;
-  color: #ffffff;
+  color: var(--color-main);
   text-transform: uppercase;
   letter-spacing: 1.4px;
   margin-bottom: 14px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: var(--font-size-title-M);
   }
 }
 .titleFirst {
-  font-size: 32px;
+  font-size: var(--font-size-subtitle-S);
   font-weight: bold;
   letter-spacing: 0.9px;
-  background-image: linear-gradient(
-    to right,
-    rgba(148, 124, 81, 1),
-    rgba(208, 169, 86, 1)
-  );
+  background-image: var(--color-background-gradient)
+  ;
   -webkit-background-clip: text;
   color: transparent;
   @media screen and (min-width: 768px) {
-    font-size: 60px;
+    font-size: var(--font-size-subtitle-M);
   }
 }
 
