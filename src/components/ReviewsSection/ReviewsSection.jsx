@@ -4,9 +4,18 @@ import css from "./ReviewsSection.module.css";
 import sprite from "../../images/icons/sprite.svg";
 import reviews from "../../../data/reviews";
 import Button from "../Button/Button";
+import { useInView } from "react-intersection-observer";
+
 const ReviewsSection = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
   return (
-    <div className={css.reviewSection}>
+    <div
+      ref={ref}
+     
+      className={`${ css.reviewSection } ${inView ? css.fadeIn : ""}`}
+    >
       <TitleSection title1="Opinie Klientów" title2="Tak o nas piszą" />
       <ul className={css.reviewsBox}>
         {reviews.map((review) => (
@@ -38,7 +47,6 @@ const ReviewsSection = () => {
         ))}
       </ul>
       <Button text={" Poczytaj na Booksach"} />
-   
     </div>
   );
 };

@@ -15,7 +15,7 @@ const Header = () => {
     <header
       className={`${pathname === "/" && css.head__background} ${
         pathname === "/about" && css.headAbout__background
-      } ${pathname === "/portfolio" && css.headPortfolio__background}  ${
+      } ${pathname === "/portfolio" && css.head__background}  ${
         pathname === "/pricing" && css.head__background
       } ${pathname === "/procedures" && css.head__background}`}
     >

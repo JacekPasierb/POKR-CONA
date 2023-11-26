@@ -27,6 +27,7 @@
 .titleFirst {
   font-size: var(--font-size-title-S);
   font-weight: bold;
+  text-transform: capitalize;
   letter-spacing: 0.9px;
   background-image:var(--color-background-gradient);
   -webkit-background-clip: text;

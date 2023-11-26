@@ -107,7 +107,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "Category": "Stylizacja Paznokci",
     "Services": [
       {
@@ -140,36 +140,205 @@
           }
         ]
       },
-       {
-         "name": "Hybryda + Akrylożel",
-         "options": [
-           {
-             "id": 2100,
-             "option": "french",
-             "value": "140 zł + / 2 h"
-           },
-           {
-             "id": 2101,
-             "option": "baby boomer",
-             "value": "130 zł / 2 h"
-           },
-           {
-             "id": 2102,
-             "option": "manicure hybrydowy + utwardzenie akrylożelem",
-             "value": "120 zł / 2 h"
-           },
-           {
-             "id": 2102,
-             "option": "zdobienie",
-             "value": "130 zł + / 2 h 10 minut"
-           },
-           {
-             "id": 2102,
-             "option": "zdobienie akwarela",
-             "value": "140 zł + / 2 h 30 minut"
-           }
-         ]
-       }
+      {
+        "name": "Hybryda + Akrylożel",
+        "options": [
+          {
+            "id": 2100,
+            "option": "french",
+            "value": "140 zł + / 2 h"
+          },
+          {
+            "id": 2101,
+            "option": "baby boomer",
+            "value": "130 zł / 2 h"
+          },
+          {
+            "id": 2102,
+            "option": "manicure hybrydowy + utwardzenie akrylożelem",
+            "value": "120 zł / 2 h"
+          },
+          {
+            "id": 2102,
+            "option": "zdobienie",
+            "value": "130 zł + / 2 h 10 minut"
+          },
+          {
+            "id": 2102,
+            "option": "zdobienie akwarela",
+            "value": "140 zł + / 2 h 30 minut"
+          }
+        ]
+      },
+      {
+        "name": "hybryda + przedłużenie",
+        "options": [
+          {
+            "id": 2100,
+            "option": "zdobienie",
+            "value": "160 zł + / 2 h 30 minut"
+          },
+          {
+            "id": 2101,
+            "option": "french",
+            "value": "170 zł / 2 h 30 minut"
+          },
+          {
+            "id": 2102,
+            "option": "baby boomer",
+            "value": "160 zł / 2 h 30 minut"
+          },
+          {
+            "id": 2102,
+            "option": "manicure hybrydowy + przedłużenie akrylożelem",
+            "value": "150 zł + / 2 h 30 minut"
+          },
+          {
+            "id": 2102,
+            "option": "akwarela",
+            "value": "180 zł + / 3 h"
+          },
+          {
+            "id": 2102,
+            "option": "manicure klasyczny + odżywka",
+            "value": "50 zł + / 40 minut"
+          }
+        ]
+      },
+      {
+        "name": "ściąganie hybrydy",
+        "options": [
+          {
+            "id": 2100,
+            "option": "ściągnięcie hybrydy",
+            "value": "20 zł / 20 minut"
+          },
+          {
+            "id": 2101,
+            "option": "ściągnięcie hybrydy + manicure klasyczny",
+            "value": "40 zł / 40 minut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "Category": "Stylizacja Rzęs",
+    "Services": [
+      {
+        "name": "rzęsy",
+        "options": [
+          {
+            "id": 2100,
+            "option": "rzęsy 2-3 D",
+            "value": "130 zł / 3 h"
+          },
+          {
+            "id": 2101,
+            "option": "rzęsy 4-6 D",
+            "value": "150 zł / 3 h 45 minut"
+          },
+          {
+            "id": 2102,
+            "option": "rzęsy 7-9 D",
+            "value": "170 zł / 4 h"
+          },
+          {
+            "id": 2102,
+            "option": "rzęsy 2-3 D uzupełnienie",
+            "value": "110 zł / 2 h 15 minut"
+          },
+          {
+            "id": 2102,
+            "option": "rzęsy 4-6 D uzupełnienie",
+            "value": "130 zł / 2 h 45 minut"
+          },
+          {
+            "id": 2102,
+            "option": "rzęsy 7-9 D uzupełnienie",
+            "value": "150 zł / 2 h 45 minut"
+          },
+          {
+            "id": 2102,
+            "option": "ściągnięcie rzęs",
+            "value": "30 zł / 30 minut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "Category": "Laminacja",
+    "Services": [
+      {
+        "name": "rzęs / brwi",
+        "options": [
+          {
+            "id": 1100,
+            "option": "laminacja rzęs + brwi",
+            "value": "160 zł / 1 h 30 minut"
+          },
+          {
+            "id": 1101,
+            "option": "laminacja rzęs",
+            "value": "120 zł / 1 h 10 minut"
+          },
+          {
+            "id": 1102,
+            "option": "laminacja brwi + farbowanie",
+            "value": "70 zł / 45 minut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "Category": "stylizacja brwi",
+    "Services": [
+      {
+        "name": "brwi",
+        "options": [
+          {
+            "id": 1100,
+            "option": "henna żelowa + regulacja",
+            "value": "35 zł / 30 minut"
+          },
+          {
+            "id": 1101,
+            "option": "henna pudrowa + regulacja",
+            "value": "80 zł / 1 h"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "Category": "depilacja - wosk",
+    "Services": [
+      {
+        "name": "brwi / wąsik / broda",
+        "options": [
+          {
+            "id": 1100,
+            "option": "brwi",
+            "value": "15 zł / 10 minut"
+          },
+          {
+            "id": 1101,
+            "option": "wąsik",
+            "value": "15 zł / 10 minut"
+          },
+          {
+            "id": 1101,
+            "option": "broda",
+            "value": "15 zł / 10 minut"
+          }
+        ]
+      }
     ]
   }
 ]
