@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import css from "./TestSection.module.css";
 import TitleSection from "../TitleSection/TitleSection";
 import pricings from "../../../data/pricings.json";
@@ -7,7 +7,11 @@ import g from "../../images/facialCareDesctop1x.jpg";
 import { useMediaQuery } from "react-responsive";
 import Service from "../Service/Service";
 import Service1 from "../Service1/Service1";
+import { useInView } from "react-intersection-observer";
 const TestSection = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
   const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isTablet = useMediaQuery({
@@ -36,7 +40,7 @@ const TestSection = () => {
   };
 
   return (
-    <>
+    <div ref={ref} className={inView ? css.fadeIn : ""}>
       <TitleSection title1="Zakres usług" title2="Zadbaj o siebie" />
       <ul className={css.cards}>
         {pricings.map((price) => (
@@ -49,7 +53,7 @@ const TestSection = () => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 
