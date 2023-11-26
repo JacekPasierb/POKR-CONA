@@ -2,6 +2,7 @@
   {
     "id": 1,
     "Category": "Modelowanie ciała",
+    "Picture":"modeling",
     "Services": [
       {
         "name": "EMS Elektro-stymulacja mięśni",
@@ -78,6 +79,7 @@
   {
     "id": 2,
     "Category": "Zabegi Kosmetyczne",
+    "Picture": "facialCare",
     "Services": [
       {
         "name": "Pielęgnacja Twarzy",
@@ -109,6 +111,7 @@
   {
     "id": 3,
     "Category": "Stylizacja Paznokci",
+    "Picture": "nailStyling",
     "Services": [
       {
         "name": "Hybryda",
@@ -225,6 +228,7 @@
   {
     "id": 4,
     "Category": "Stylizacja Rzęs",
+    "Picture": "lashStyling",
     "Services": [
       {
         "name": "rzęsy",
@@ -271,6 +275,7 @@
   {
     "id": 5,
     "Category": "Laminacja",
+    "Picture": "laminating",
     "Services": [
       {
         "name": "rzęs / brwi",
@@ -297,6 +302,7 @@
   {
     "id": 6,
     "Category": "stylizacja brwi",
+    "Picture": "browStyling",
     "Services": [
       {
         "name": "brwi",
@@ -318,6 +324,7 @@
   {
     "id": 7,
     "Category": "depilacja - wosk",
+    "Picture": "modeling",
     "Services": [
       {
         "name": "brwi / wąsik / broda",
