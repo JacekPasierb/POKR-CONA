@@ -14,7 +14,7 @@
           {
             "id": 1101,
             "option": "Opcja 2",
-            "value": "130 zł / 30 min"
+            "value": "160 zł / 45 min"
           },
           {
             "id": 1102,
@@ -28,18 +28,28 @@
         "options": [
           {
             "id": 1200,
-            "option": "Opcja 1",
-            "value": "130 zł / 30 min"
+            "option": "podbródek",
+            "value": "180 zł / 30 minut"
           },
           {
             "id": 1201,
-            "option": "Opcja 2",
-            "value": "130 zł / 30 min"
+            "option": "1 przyłożenie",
+            "value": "320 zł / 40 minut"
           },
           {
             "id": 1202,
-            "option": "Opcja 3",
-            "value": "190 zł / 60 min"
+            "option": "1 przyłożenie",
+            "value": "400 zł / 60 minut"
+          },
+          {
+            "id": 1202,
+            "option": "2 przyłożenia",
+            "value": "470 zł / 40 minut"
+          },
+          {
+            "id": 1202,
+            "option": "2 przyłożenia",
+            "value": "550 zł / 60 minut"
           }
         ]
       },
@@ -49,17 +59,17 @@
           {
             "id": 1300,
             "option": "Opcja 1",
-            "value": "130 zł / 30 min"
+            "value": "150 zł / 45 minut"
           },
           {
             "id": 1301,
             "option": "Opcja 2",
-            "value": "130 zł / 30 min"
+            "value": "200 zł / 60 minut"
           },
           {
             "id": 1302,
             "option": "Opcja 3",
-            "value": "190 zł / 60 min"
+            "value": "240 zł / 1 h 20 minut"
           }
         ]
       }
@@ -67,28 +77,99 @@
   },
   {
     "id": 2,
-    "Category": "Pielęgnacja twarzy",
+    "Category": "Zabegi Kosmetyczne",
     "Services": [
       {
-        "name": "EMS",
+        "name": "Pielęgnacja Twarzy",
         "options": [
           {
             "id": 2100,
-            "option": "Opcja 1",
-            "value": "130 zł / 30 min"
+            "option": "kwas - retinol + wit. c",
+            "value": "200 zł / 30 minut"
           },
           {
             "id": 2101,
-            "option": "Opcja 2",
-            "value": "130 zł / 30 min"
+            "option": "endermologia twarzy",
+            "value": "140 zł / 40 minut"
           },
           {
             "id": 2102,
-            "option": "Opcja 3",
-            "value": "190 zł / 60 min"
+            "option": "endermologia twarzy + szyja",
+            "value": "170 zł / 55 minut"
+          },
+          {
+            "id": 2102,
+            "option": "endermologia twarzy + szyja + dekolt",
+            "value": "200 zł / 1 h 20 minut"
           }
         ]
       }
+    ]
+  },
+  {
+    "id": 2,
+    "Category": "Stylizacja Paznokci",
+    "Services": [
+      {
+        "name": "Hybryda",
+        "options": [
+          {
+            "id": 2100,
+            "option": "zdobienie",
+            "value": "110 zł + / 1 h 30 minut"
+          },
+          {
+            "id": 2101,
+            "option": "manicure hybrydowy",
+            "value": "100 zł / 1 h 30 minut"
+          },
+          {
+            "id": 2102,
+            "option": "baby boomer",
+            "value": "110 zł / 1 h 40 minut"
+          },
+          {
+            "id": 2102,
+            "option": "french",
+            "value": "120 zł / 1 h 40 minut"
+          },
+          {
+            "id": 2102,
+            "option": "zdobienie akwarela",
+            "value": "120 zł + / 2 h"
+          }
+        ]
+      },
+       {
+         "name": "Hybryda + Akrylożel",
+         "options": [
+           {
+             "id": 2100,
+             "option": "french",
+             "value": "140 zł + / 2 h"
+           },
+           {
+             "id": 2101,
+             "option": "baby boomer",
+             "value": "130 zł / 2 h"
+           },
+           {
+             "id": 2102,
+             "option": "manicure hybrydowy + utwardzenie akrylożelem",
+             "value": "120 zł / 2 h"
+           },
+           {
+             "id": 2102,
+             "option": "zdobienie",
+             "value": "130 zł + / 2 h 10 minut"
+           },
+           {
+             "id": 2102,
+             "option": "zdobienie akwarela",
+             "value": "140 zł + / 2 h 30 minut"
+           }
+         ]
+       }
     ]
   }
 ]

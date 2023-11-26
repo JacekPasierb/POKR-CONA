@@ -1,6 +1,7 @@
 import React from "react";
 
 import css from "./LastSection.module.css";
+import Button from "../Button/Button";
 
 const LastSection = () => {
   return (
@@ -11,9 +12,7 @@ const LastSection = () => {
 
           <h2 className={css.titleFirst}>Masz pytania ?</h2>
           <h2 className={css.titleSecond}>Skontaktuj się z nami</h2>
-          <button type="button" className={css.button}>
-            +48 666 589 222
-          </button>
+          <Button text={" +48 666 589 222"} />
         </div>
       </div>
     </section>

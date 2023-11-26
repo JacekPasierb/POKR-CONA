@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import css from "./NavBarDesctop.module.css";
 import logoDesctop from "../../images/LogoLaptop.png";
 import Line from "../Line/Line";
+import Button from "../Button/Button";
 
 const NavBarDesctop = () => {
   return (
@@ -27,9 +28,7 @@ const NavBarDesctop = () => {
             Poznaj Zabiegi
           </NavLink>
         </nav>
-        <button type="button" className={css.button}>
-          Rezerwuj wizytę
-        </button>
+        <Button text={"Rezerwuj wizytę"} />
       </div>
       <Line color={`rgba(255, 255, 255, 50%) `} />
     </div>

@@ -3,6 +3,7 @@ import TitleSection from "../TitleSection/TitleSection";
 import css from "./ReviewsSection.module.css";
 import sprite from "../../images/icons/sprite.svg";
 import reviews from "../../../data/reviews";
+import Button from "../Button/Button";
 const ReviewsSection = () => {
   return (
     <div className={css.reviewSection}>
@@ -36,9 +37,8 @@ const ReviewsSection = () => {
           </li>
         ))}
       </ul>
-      <button type="button" className={css.button}>
-        Poczytaj na Booksach
-      </button>
+      <Button text={" Poczytaj na Booksach"} />
+   
     </div>
   );
 };
