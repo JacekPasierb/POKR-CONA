@@ -2,7 +2,7 @@
 
 .welcomePage {
   height: 100vh;
-  background-color: var(--color-secodary);
+  background-color: var(--color-secondary);
   display: flex;
   align-items: center;
   justify-content: center;

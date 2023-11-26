@@ -4,12 +4,12 @@
   width: 20%;
   height: 1px;
   margin: 0 auto;
-  background-color: var(--color-background-line-second);
+  background-color: var(--color-background-second);
 }
 .icon {
   width: 24px;
   height: 18px;
-  fill: rgba(208, 169, 86, 1);
+  fill: var(--color-primary);
 }
 .reviewsBox {
   margin-bottom: 32px;
@@ -17,9 +17,11 @@
     display: flex;
     flex-direction: row;
     gap: 100px;
+    align-items: center;
   }
 }
 .reviewBox {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,37 +29,53 @@
   @media screen and (min-width: 768px) {
     gap: 32px;
   }
+   @media screen and (min-width: 1200px) {
+    width: calc(100%/3);
+    
 }
+  }
+  
 .reviewOpinion {
   text-align: center;
+  font-size: var(--font-size-text);
+  color: var(--color-secondary);
+  @media screen and (min-width: 768px) {
+     font-size: var(--font-size-text);
+  }
 }
 .reviewTitle {
   text-align: center;
 }
 .reviewAuthor {
-  background-image: var(--color-background-main);
+  background-image: var(--color-background-gradient);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 16px;
+  font-size: var(--font-size-text);
   font-weight: bold;
+   @media screen and (min-width: 768px) {
+     font-size: var(--font-size-text-M);
+  }
 }
 .reviewData {
-  background-image: var(--color-background-main);
+  background-image: var(--color-background-gradient);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 14px;
+  font-size: var(--font-size-text);
   font-weight: lighter;
   letter-spacing: 1.4px;
+   @media screen and (min-width: 768px) {
+     font-size: var(--font-size-text-M);
+  }
 }
 .button {
-  background-image: var(--color-background-main);
+  background-image: var(--color-background-button);
   border: 0;
   border-radius: 20px;
   padding: 15px 25px 15px 25px;
 
-  font-size: 14px;
+  font-size: var(--font-size-button);
   font-weight: 400;
-  color: var(--color-text-main);
+  color: var(--color-text-button);
 
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -65,8 +83,8 @@
 .button:hover {
   background-image: none;
   background-color: transparent;
-  border: 1px solid var(--color-text-third);
-  color: var(--color-text-second);
+  border: 1px solid var(--color-border-hover);
+  color: var(--color-text-button-second);
 }
 
 .reviewSection {

@@ -1,23 +1,23 @@
 [
   {
-    "id":1,
+    "id": 1,
     "star": 2,
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
-    "author": "Marlena Ł",
-    "data": "8.11.2023"
+    "opinion": "Bardzo polecam laminację rzęs. Pani wykonywała mi usługę bardzo dokładnie i delikatnie, pełen profesjonalizm. Jestem bardzo zadowolona, polecam!!!☺️😘...",
+    "author": "Katarzyna W",
+    "data": "7.10.2023"
   },
   {
     "id": 2,
     "star": 2,
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
-    "author": "Marlena Ł",
-    "data": "8.11.2023"
+    "opinion": "Długo szukałam osoby, która będzie potrafiła zaradzić słabo utrzymującej się stylizacji na moich paznokciach, a do tego będzie bardzo dokładna i dbająca o detale. Praca wykonana przez Panią Sarę zachwyca - rzekłabym, że każda kolejna nawet bardziej. Stylizacja w pełni dopracowana, trwała, a przy tym wykonana  bardzo sprawnie. Brak wcześniej przygotowanej inspiracji też nie stanowi problemu i z salonu wychodzę w pełni zadowolona. Polecam całym sercem! :)",
+    "author": "Kaja M",
+    "data": "2.11.2023"
   },
   {
     "id": 3,
     "star": 2,
-    "opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et mass",
-    "author": "Marlena Ł",
-    "data": "8.11.2023"
+    "opinion": "Dziękuję za kolejne fantastyczne popołudnie😍 atmosfera w salonie poprostu rewelacja i oczywiście profesjonalne wykonanie pazurków przez Panią Sarę 🤩...",
+    "author": "Ewelina B",
+    "data": "18.11.2023"
   }
 ]

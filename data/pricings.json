@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "Category": "Modelowanie ciała",
+    "Services": [
+      {
+        "name": "EMS Elektro-stymulacja mięśni",
+        "options": [
+          {
+            "id": 1100,
+            "option": "Opcja 1",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1101,
+            "option": "Opcja 2",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1102,
+            "option": "Opcja 3",
+            "value": "190 zł / 60 min"
+          }
+        ]
+      },
+      {
+        "name": "Kriolipoliza",
+        "options": [
+          {
+            "id": 1200,
+            "option": "Opcja 1",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1201,
+            "option": "Opcja 2",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1202,
+            "option": "Opcja 3",
+            "value": "190 zł / 60 min"
+          }
+        ]
+      },
+      {
+        "name": "Endermologia Ciała",
+        "options": [
+          {
+            "id": 1300,
+            "option": "Opcja 1",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1301,
+            "option": "Opcja 2",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 1302,
+            "option": "Opcja 3",
+            "value": "190 zł / 60 min"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "Category": "Pielęgnacja twarzy",
+    "Services": [
+      {
+        "name": "EMS",
+        "options": [
+          {
+            "id": 2100,
+            "option": "Opcja 1",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 2101,
+            "option": "Opcja 2",
+            "value": "130 zł / 30 min"
+          },
+          {
+            "id": 2102,
+            "option": "Opcja 3",
+            "value": "190 zł / 60 min"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -20,14 +20,14 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color:red;
+  color: red;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-
+  background-color: rgba(208, 169, 86, 0.3);
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
   line-height: 1.1;
   margin-block: 0;
 }
-h2, 
+h2,
 h3,
 h4,
 h5,
@@ -48,17 +48,18 @@ ul {
   padding: 0;
 }
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
   a:hover {
-    color:#ffffff ;
+    color: #ffffff;
   }
   button {
     background-color: #f9f9f9;
+  }
+  button:hover {
+    cursor: pointer;
   }
 }

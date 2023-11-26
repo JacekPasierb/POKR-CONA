@@ -13,19 +13,35 @@ const Footer = () => {
             <h4 className={css.footerBox__title}>Karolina Żamojtel</h4>
             <p className={css.footerBox__description}>ul. Partyzantów 31</p>
             <p className={css.footerBox__description}>22-500 Hrubieszów</p>
+          </div>
+          <div className={css.footerBox}>
+            <h4 className={css.footerBox__title}>Kontakt</h4>
             <p className={css.footerBox__description}>
-              Telefon: (+48) 666 589 222
+              <b>Telefon:</b>
+            </p>
+            <p className={css.footerBox__description}>(+48) 666 589 222</p>
+            <p className={css.footerBox__description}>
+              <b>E-mail:</b>
             </p>
             <p className={css.footerBox__description}>
-              E-mail: pokreconastylistka@gmail.com
+              pokreconastylistka@gmail.com
             </p>
           </div>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Zapraszamy</h4>
 
-            <p className={css.footerBox__description}>Pn - Pt: 9:00 - 17:00</p>
-            <p className={css.footerBox__description}>Sobota: 8:00 - 14:00</p>
-            <p className={css.footerBox__description}>Niedziela: Zamknięte </p>
+            <p className={css.footerBox__description}>
+              <b>Poniedziałek - Piątek:</b>
+            </p>
+            <p className={css.footerBox__description}>9:00 - 17:00</p>
+            <p className={css.footerBox__description}>
+              <b>Sobota:</b>
+            </p>
+            <p className={css.footerBox__description}> 8:00 - 14:00</p>
+            <p className={css.footerBox__description}>
+              <b>Niedziela:</b>
+            </p>
+            <p className={css.footerBox__description}> Zamknięte </p>
           </div>
         </div>
         <Line color={`rgba(0, 0, 0, 50%) `} />
@@ -45,7 +61,7 @@ const Footer = () => {
         </div>
         <Line color={`rgba(0, 0, 0, 50%) `} />
         <div className={css.footerRights}>
-          <p>
+          <p >
             © "Pokręcona" Karolina Żamojtel Sp. z o. o. 2023 Wszelkie prawa
             zastrzeżone. Stronę wraz z projektem opracował: Jacek Pasierb
           </p>

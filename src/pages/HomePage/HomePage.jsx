@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 
 import css from "./HomePage.module.css";
 
+
 const MainSection = lazy(() =>
   import("../../components/MainSection/MainSection")
 );

@@ -1,6 +1,7 @@
 @import "../../stylesheet/variables.css";
 
 .footer {
+  background-image: var(--color-background-gradient);
   padding-block: 18px;
   @media screen and (min-width: 768px) {
     padding-block: 32px;
@@ -45,37 +46,29 @@
   }
 }
 .footerBox__title {
-  font-size: 32px;
-  font-weight: bold;
-  background-image: linear-gradient(
-    to right,
-    rgba(148, 124, 81, 1),
-    rgba(208, 169, 86, 1)
-  );
+  font-size: var(--font-size-title-M);
+  font-weight: normal;
+  /* background-image: var(--color-background-gradient);
   -webkit-background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: var(--color-secondary);
   @media screen and (min-width: 768px) {
-    font-size: 32px;
+    font-size: var(--font-size-subtitle-S);
   }
 }
 .footerBox__description {
-  font-size: 14px;
+  font-size: var(--font-size-text);
   font-weight: light;
   letter-spacing: 1.4px;
-  background-image: linear-gradient(
-    to right,
-    rgba(148, 124, 81, 1),
-    rgba(208, 169, 86, 1)
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+color: var(--color-secondary);
 
-  @media screen and (min-width: 768px) {
-    font-size: 22px;
+  @media screen and (min-width: 1200px) {
+    font-size: var(--font-size-text-M);
   }
 }
 .footerSocial {
   text-align: center;
+  
 }
 .footerBox__icons {
   display: flex;
@@ -92,6 +85,12 @@
 }
 .footerRights {
   text-align: center;
+}
+.footerRights p {
+  font-size: var(--font-size-text);
+   @media screen and (min-width: 768px) {
+    font-size: var(--font-size-text-M);
+  }
 }
 .icon {
   width: 50px;
