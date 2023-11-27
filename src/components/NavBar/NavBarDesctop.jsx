@@ -28,7 +28,12 @@ const NavBarDesctop = () => {
             Poznaj Zabiegi
           </NavLink>
         </nav>
-        <Button text={"Rezerwuj wizytę"} />
+        <Button
+          text={"Rezerwuj wizytę"}
+          url={
+            "https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1"
+          }
+        />
       </div>
       <Line color={`rgba(255, 255, 255, 50%) `} />
     </div>

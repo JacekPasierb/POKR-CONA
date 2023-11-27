@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import css from "./Button.module.css";
 import PropTypes from "prop-types";
 
-const Button = ({ text }) => {
+const Button = ({ text, url }) => {
   const [isShaking, setIsShaking] = useState(false);
 
   useEffect(() => {
@@ -18,12 +18,14 @@ const Button = ({ text }) => {
     };
   }, []);
   return (
-    <button
-      type="button"
-      className={`${css.button} ${isShaking ? css.buttonAnimation : ""}`}
-    >
-      {text}
-    </button>
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      <button
+        type="button"
+        className={`${css.button} ${isShaking ? css.buttonAnimation : ""}`}
+      >
+        {text}
+      </button>
+    </a>
   );
 };
 

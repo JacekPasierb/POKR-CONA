@@ -13,8 +13,7 @@ const ReviewsSection = () => {
   return (
     <div
       ref={ref}
-     
-      className={`${ css.reviewSection } ${inView ? css.fadeIn : ""}`}
+      className={`${css.reviewSection} ${inView ? css.fadeIn : ""}`}
     >
       <TitleSection title1="Opinie Klientów" title2="Tak o nas piszą" />
       <ul className={css.reviewsBox}>
@@ -46,7 +45,12 @@ const ReviewsSection = () => {
           </li>
         ))}
       </ul>
-      <Button text={" Poczytaj na Booksach"} />
+      <Button
+        text={" Poczytaj na Booksach"}
+        url={
+          "https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1#reviews-section"
+        }
+      />
     </div>
   );
 };
