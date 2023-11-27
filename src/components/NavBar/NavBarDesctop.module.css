@@ -4,23 +4,34 @@
   align-items: center;
 }
 .logo {
-  width: 290px;
+  width: 180px;
+  height: auto;
+   @media screen and (min-width: 1200px) {
+     width: 290px;
   height: 100px;
+  }
 }
 
 .navMenu {
   display: flex;
-  gap: 30px;
+  gap: 20px;
+   @media screen and (min-width: 1200px) {
+   gap: 30px;
+  }
 }
 .link {
   text-decoration: none;
-  font-size: var(--font-size-text);
+  font-size: 10px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  
   text-align: right;
   color: var(--color-main);
 
   transition: all 1s;
+  @media screen and (min-width: 1200px) {
+    font-size: var(--font-size-text);
+    letter-spacing: 1.5px;
+  }
 }
 .link:hover {
   color: var(--color-primary);

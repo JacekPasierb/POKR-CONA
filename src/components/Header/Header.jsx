@@ -7,7 +7,7 @@ import NavBarDesctop from "../NavBar/NavBarDesctop";
 import { useLocation } from "react-router";
 
 const Header = () => {
-  const isLaptop = useMediaQuery({ query: `(min-width: 1200px)` });
+  const isMobile = useMediaQuery({ query: `(min-width: 768px)` });
   const location = useLocation();
   const { pathname } = location;
 
@@ -20,7 +20,7 @@ const Header = () => {
       } ${pathname === "/procedures" && css.head__background}`}
     >
       <div className={`${css.container} ${css.headContent}`}>
-        {!isLaptop ? <NavBarMobile /> : <NavBarDesctop />}
+        {!isMobile ? <NavBarMobile /> : <NavBarDesctop />}
 
         <div className={css.title}>
           <h1 className={css.titleSecond}>Karolina Żamojtel</h1>
