@@ -62,7 +62,7 @@ const Footer = () => {
         <Line color={`rgba(0, 0, 0, 50%) `} />
         <div className={css.footerRights}>
           <p >
-            © "Pokręcona" Karolina Żamojtel Sp. z o. o. 2023 Wszelkie prawa
+            © "Pokręcona" Karolina Żamojtel 2023 Wszelkie prawa
             zastrzeżone. Stronę wraz z projektem opracował: Jacek Pasierb
           </p>
         </div>
