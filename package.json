@@ -19,7 +19,8 @@
     "react-intersection-observer": "^9.5.3",
     "react-responsive": "^9.0.2",
     "react-router": "^6.18.0",
-    "react-router-dom": "^6.18.0"
+    "react-router-dom": "^6.20.0",
+    "use-history": "^1.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

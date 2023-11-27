@@ -36,7 +36,7 @@ const NavBarMobile = () => {
       </div>
       <Line color={`rgba(255, 255, 255, 50%) `} />
 
-      {showMenu ? <ModalMenu /> : null}
+      {showMenu ? <ModalMenu onClose={toggleMenu} /> : null}
     </div>
   );
 };
