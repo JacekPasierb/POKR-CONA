@@ -6,7 +6,7 @@ import { SiAboutdotme } from "react-icons/si";
 import { GiFingernail } from "react-icons/gi";
 import { RxBoxModel } from "react-icons/rx";
 import { FaRegWindowClose } from "react-icons/fa";
-
+import logoMobile from "../../images/LogoMobile.png";
 import React from "react";
 import { IconContext } from "react-icons";
 
@@ -21,12 +21,9 @@ const ModalMenu = ({ onClose }) => {
     <div className={css.menuWrapper}>
       <div className={css.menu}>
         <div className={css.boxes}>
+          
           <div className={css.row2}>
-            <Link
-              to="#"
-              className={css.link}
-              onClick={onClose}
-            >
+            <Link to="#" className={css.link} onClick={onClose}>
               <div className={css.box1}>
                 <IconContext.Provider
                   value={{
@@ -35,7 +32,7 @@ const ModalMenu = ({ onClose }) => {
                 >
                   <FaRegWindowClose />
                 </IconContext.Provider>
-                <p>Zamknij Menu</p>
+                <p className={css.textLink}>Zamknij Menu</p>
               </div>
             </Link>
           </div>
@@ -53,7 +50,7 @@ const ModalMenu = ({ onClose }) => {
                 >
                   <IoHomeOutline />
                 </IconContext.Provider>
-                <p>Strona Główna</p>
+                <p className={css.textLink}>Strona Główna</p>
               </div>
             </Link>
             <Link
@@ -70,7 +67,7 @@ const ModalMenu = ({ onClose }) => {
                   <SiAboutdotme />
                 </IconContext.Provider>
 
-                <p>O nas</p>
+                <p className={css.textLink}>O nas</p>
               </div>
             </Link>
           </div>
@@ -89,7 +86,7 @@ const ModalMenu = ({ onClose }) => {
                 >
                   <GrWorkshop />
                 </IconContext.Provider>
-                <p>Portfolio</p>
+                <p className={css.textLink}>Portfolio</p>
               </div>
             </Link>
             <Link
@@ -106,7 +103,7 @@ const ModalMenu = ({ onClose }) => {
                   <GiFingernail />
                 </IconContext.Provider>
 
-                <p>Cennik</p>
+                <p className={css.textLink}>Cennik</p>
               </div>
             </Link>
           </div>
@@ -126,7 +123,7 @@ const ModalMenu = ({ onClose }) => {
                   <RxBoxModel />
                 </IconContext.Provider>
 
-                <p>Poznaj Zabiegi</p>
+                <p className={css.textLink}>Poznaj Zabiegi</p>
               </div>
             </Link>
           </div>

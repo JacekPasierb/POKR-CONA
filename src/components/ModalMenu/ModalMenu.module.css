@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    gap:10px;
+  gap: 10px;
 }
 
 .box2 {
@@ -55,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10px;
+  gap: 10px;
 }
 .row1 {
   display: flex;
@@ -82,3 +82,7 @@
   border: 0;
   background: transparent;
 }
+.textLink {
+  color: var(--color-secondary);
+}
+

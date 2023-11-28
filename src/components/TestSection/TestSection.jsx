@@ -8,6 +8,7 @@ import { useMediaQuery } from "react-responsive";
 import Service from "../Service/Service";
 import Service1 from "../Service1/Service1";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 const TestSection = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -45,11 +46,13 @@ const TestSection = () => {
       <ul className={css.cards}>
         {pricings.map((price) => (
           <li key={price.id} className={css.card}>
-            <Service1
-              title={price.Category}
-              backgroundImage={getBackgroundImage(`${price.Picture}`)}
-            />
-            <p className={css.serviceBox__overlay}>Sprawdź ofertę</p>
+            <Link to={`/pricing#${price.Picture}`}>
+              <Service1
+                title={price.Category}
+                backgroundImage={getBackgroundImage(`${price.Picture}`)}
+              />
+              <p className={css.serviceBox__overlay}>Sprawdź ofertę</p>
+            </Link>
           </li>
         ))}
       </ul>

@@ -13,7 +13,7 @@ const BoxServices = () => {
       {pricings.map((pricing) => (
         <li key={pricing.id}>
           {pricing.Services && pricing.Services.length > 0 && (
-            <ul className={css.sectionBoxServices}>
+            <ul className={css.sectionBoxServices} id={pricing.Picture}>
               {pricing.Services.map((service) => (
                 <li key={service.id}>
                   <Suspense fallback={<div>Loading service... </div>}>
