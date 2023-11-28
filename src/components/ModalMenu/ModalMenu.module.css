@@ -23,10 +23,11 @@
   color: #ffffff;
 }
 .link {
-  color: #ff0a0a;
+  color: var(--color-second);
+  transition: all 500ms;
 }
 .link:hover {
-  color: #d0ff00;
+  color: var(--color-primary);
 }
 
 .box1 {

@@ -8,6 +8,7 @@ import { RxBoxModel } from "react-icons/rx";
 import { FaRegWindowClose } from "react-icons/fa";
 
 import React from "react";
+import { IconContext } from "react-icons";
 
 const ModalMenu = ({ onClose }) => {
   const navigate = useNavigate();
@@ -21,12 +22,22 @@ const ModalMenu = ({ onClose }) => {
       <div className={css.menu}>
         <div className={css.boxes}>
           <div className={css.row2}>
-            <button type="button" onClick={onClose} className={css.buttonModal}>
+            <Link
+              to="#"
+              className={css.link}
+              onClick={onClose}
+            >
               <div className={css.box1}>
-                <FaRegWindowClose />
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <FaRegWindowClose />
+                </IconContext.Provider>
                 <p>Zamknij Menu</p>
               </div>
-            </button>
+            </Link>
           </div>
           <div className={css.row1}>
             <Link
@@ -35,8 +46,13 @@ const ModalMenu = ({ onClose }) => {
               onClick={() => handleLinkClick("/")}
             >
               <div className={css.box1}>
-                <IoHomeOutline />
-
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <IoHomeOutline />
+                </IconContext.Provider>
                 <p>Strona Główna</p>
               </div>
             </Link>
@@ -46,7 +62,13 @@ const ModalMenu = ({ onClose }) => {
               onClick={() => handleLinkClick("/about")}
             >
               <div className={css.box2}>
-                <SiAboutdotme />
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <SiAboutdotme />
+                </IconContext.Provider>
 
                 <p>O nas</p>
               </div>
@@ -60,7 +82,13 @@ const ModalMenu = ({ onClose }) => {
               onClick={() => handleLinkClick("/portfolio")}
             >
               <div className={css.box1}>
-                <GrWorkshop />
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <GrWorkshop />
+                </IconContext.Provider>
                 <p>Portfolio</p>
               </div>
             </Link>
@@ -70,7 +98,13 @@ const ModalMenu = ({ onClose }) => {
               onClick={() => handleLinkClick("/pricing")}
             >
               <div className={css.box2}>
-                <GiFingernail />
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <GiFingernail />
+                </IconContext.Provider>
 
                 <p>Cennik</p>
               </div>
@@ -84,7 +118,13 @@ const ModalMenu = ({ onClose }) => {
               onClick={() => handleLinkClick("/procedures")}
             >
               <div className={css.box1}>
-                <RxBoxModel />
+                <IconContext.Provider
+                  value={{
+                    color: "rgba(208, 169, 86, 1)",
+                  }}
+                >
+                  <RxBoxModel />
+                </IconContext.Provider>
 
                 <p>Poznaj Zabiegi</p>
               </div>
