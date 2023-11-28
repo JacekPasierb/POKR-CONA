@@ -10,7 +10,7 @@ import Line from "../Line/Line.jsx";
 import { useMediaQuery } from "react-responsive";
 
 const NavBarMobile = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
 
