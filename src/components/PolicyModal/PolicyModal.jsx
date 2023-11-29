@@ -10,6 +10,14 @@ const PolicyModal = ({onClose}) => {
           <ul className={css.policyList}>
             <li>
               <p className={css.policyTitle}>
+                Polityka Prywatności serwisu "Pokręcona" Karolina Żamojtel.
+              </p>
+            </li>
+            <li>
+              <p className={css.policyTitle}>www.pokręcona.pl</p>
+            </li>
+            <li>
+              <p className={css.policyDescription}>
                 Dziękujemy za odwiedzenie naszej strony internetowej. Niniejsza
                 polityka opisuje, w jaki sposób zbieramy, używamy i chronimy
                 informacje oraz informuje o korzystaniu z plików cookies.
@@ -56,12 +64,14 @@ const PolicyModal = ({onClose}) => {
               <p className={css.policyTitle}>5. Kontakt</p>
               <p className={css.policyDescription}>
                 Jeśli masz pytania dotyczące naszej polityki prywatności i
-                plików cookies, skontaktuj się z nami pod adresem: [Twój Adres
-                Kontaktowy].
+                plików cookies, skontaktuj się z nami pod adresem: Karolina
+                Żamojtel "Pokręcona", Partyzantów 31, 22-500 Hrubieszów z
+                wykorzystaniem następujących danych kontaktowych:
+                pokreconastylistka@gmail.com.
               </p>
             </li>
             <li className={css.policyDescription}>
-              Ostatnia aktualizacja: [Data]
+              Ostatnia aktualizacja: 29.11.2023r
             </li>
             <li onClick={onClose}>
               <p className={css.policyDescription}>Zamknij</p>

@@ -1,3 +1,5 @@
+@import "../../stylesheet/variables.css";
+
 .menuWrapper {
   display: block;
   background-color: #33333365;
@@ -14,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 32px 32px;
+  padding: 16px 16px;
 }
 .policyList {
   display: flex;
@@ -23,12 +25,26 @@
   margin: 0 auto;
   text-align: left;
   width: 320px;
+  max-height: 70vh;
+  overflow-y: auto;
+   @media screen and (min-width: 768px) {
+    width: 100%;
+    min-height: 90vh;
+  }
 }
 .policyTitle {
-font-size: 14px;
+font-size: 10px;
 font-weight: bold;
+color: var(--color-secondary);
+@media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 }
 .policyDescription {
-font-size: 10px;
+font-size: 6px;
 font-weight: lighter;
+color: var(--color-secondary);
+@media screen and (min-width: 768px) {
+    font-size: 10px;
+  }
 }
