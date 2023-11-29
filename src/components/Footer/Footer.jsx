@@ -48,22 +48,40 @@ const Footer = () => {
         <div className={css.footerSocial}>
           <h4 className={css.footerBox__title}> Śledź nas w sieci</h4>
           <div className={css.footerBox__icons}>
-            <svg className={`${css.icon} ${css.fb}`}>
-              <use href={sprite + `#icon-Facebook`}></use>
-            </svg>
-            <svg className={`${css.icon} ${css.insta}`}>
-              <use href={sprite + `#icon-Instagram`}></use>
-            </svg>
-            <svg className={`${css.icon} ${css.booksy}`}>
-              <use href={sprite + `#icon-booksy-seeklogocom`}></use>
-            </svg>
+            <a
+              href="https://www.facebook.com/profile.php?id=100095404849968"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg className={`${css.icon} ${css.fb}`}>
+                <use href={sprite + `#icon-Facebook`}></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/pokrecona_karolina_zamojtel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg className={`${css.icon} ${css.insta}`}>
+                <use href={sprite + `#icon-Instagram`}></use>
+              </svg>
+            </a>{" "}
+            <a
+              href="https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg className={`${css.icon} ${css.booksy}`}>
+                <use href={sprite + `#icon-booksy-seeklogocom`}></use>
+              </svg>
+            </a>
           </div>
         </div>
         <Line color={`rgba(0, 0, 0, 50%) `} />
         <div className={css.footerRights}>
-          <p >
-            © "Pokręcona" Karolina Żamojtel 2023 Wszelkie prawa
-            zastrzeżone. Stronę wraz z projektem opracował: Jacek Pasierb
+          <p>
+            © "Pokręcona" Karolina Żamojtel 2023 Wszelkie prawa zastrzeżone.
+            Stronę wraz z projektem opracował: Jacek Pasierb
           </p>
         </div>
       </div>
