@@ -46,7 +46,7 @@ const TestSection = () => {
       <ul className={css.cards}>
         {pricings.map((price) => (
           <li key={price.id} className={css.card}>
-            <Link to={`/pricing#${price.Picture}`}>
+            <Link to={`/pricing#${price.Picture}`} className={css.link}>
               <Service1
                 title={price.Category}
                 backgroundImage={getBackgroundImage(`${price.Picture}`)}
