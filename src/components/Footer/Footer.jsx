@@ -2,8 +2,19 @@ import React from "react";
 import css from "./Footer.module.css";
 import Line from "../Line/Line";
 import sprite from "../../images/icons/sprite.svg";
+import PolicyModal from "../PolicyModal/PolicyModal";
+import { useState } from "react";
 
 const Footer = () => {
+  const [isOpenPolicyModal, setIsOpenPolicyModal] = useState(false);
+  const handlePolicyModal = () => {
+    setIsOpenPolicyModal(true);
+  };
+  
+  const handlePolicyModalClose = () => {
+    setIsOpenPolicyModal(false);
+  };
+
   return (
     <footer className={css.footer}>
       <div className={`${css.container} ${css.gap}`}>
@@ -83,6 +94,10 @@ const Footer = () => {
             © "Pokręcona" Karolina Żamojtel 2023 Wszelkie prawa zastrzeżone.
             Stronę wraz z projektem opracował: Jacek Pasierb
           </p>
+          <p onClick={handlePolicyModal}>
+            Polityka Prywatności i Plików Cookies
+          </p>
+          {isOpenPolicyModal && <PolicyModal onClose={ handlePolicyModalClose} />}
         </div>
       </div>
     </footer>
