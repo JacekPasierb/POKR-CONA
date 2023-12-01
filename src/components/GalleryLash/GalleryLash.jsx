@@ -3,9 +3,9 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useMediaQuery } from "react-responsive";
 import imagesPaznokcie from "../../../data/images.json";
-import css from "./GalleryNais.module.css";
+import css from "./GalleryLash.module.css";
 
-const GalleryNais = () => {
+const GalleryLash = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isTablet = useMediaQuery({
     query: "(min-width: 768px) ",
@@ -35,4 +35,4 @@ const GalleryNais = () => {
   );
 };
 
-export default GalleryNais;
+export default GalleryLash;

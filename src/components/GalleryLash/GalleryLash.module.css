@@ -1,0 +1,9 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+.imageWidth {
+  width: 250px; /* Lub inna wartość szerokości, którą chcesz ustawić */
+  height: 250px;
+}
+.imageWidthTablet {
+    width: 100%;
+    height: auto;
+}
