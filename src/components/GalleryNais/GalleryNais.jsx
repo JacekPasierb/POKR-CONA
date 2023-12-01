@@ -14,7 +14,7 @@ const GalleryNais = () => {
   const imagesFix = imagesPaznokcie.map((image) => ({
     original: isTablet
       ? image.original.replace(".webp", "Tablet.webp")
-      : image.original,
+      : image.original.replace(".webp", "Mobile.webp"),
     thumbnail: isTablet
       ? image.thumbnail.replace(".webp", "Tablet.webp")
       : image.thumbnail,
