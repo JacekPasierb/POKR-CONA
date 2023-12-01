@@ -1,14 +1,27 @@
 [
   {
-    "original": "../../images/nail/a.webp",
-    "thumbnail": "../../images/nail/a.webp"
+    "original": "../src/images/nail/nail01.webp",
+    "thumbnail": "../src/images/nail/nail01.webp",
+    "originalWidth": "320px"
   },
   {
-    "original": "b",
-    "thumbnail": "b"
+    "original": "../src/images/nail/nail02.webp",
+    "thumbnail": "../src/images/nail/nail02.webp",
+    "originalWidth": "320px"
   },
   {
-    "original": "c",
-    "thumbnail": "c"
+    "original": "../src/images/nail/nail03.webp",
+    "thumbnail": "../src/images/nail/nail03.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "../src/images/nail/nail04.webp",
+    "thumbnail": "../src/images/nail/nail04.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "../src/images/nail/nail05.webp",
+    "thumbnail": "../src/images/nail/nail05.webp",
+    "originalWidth": "320px"
   }
 ]
