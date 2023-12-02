@@ -14,10 +14,10 @@ const GalleryNais = () => {
   const imagesFix = imagesPaznokcie.map((image) => ({
     original: isTablet
       ? image.original.replace(".webp", "Tablet.webp")
-      : image.original.replace(".webp", "Tablet.webp"),
+      : image.original.replace(".webp", ".webp"),
     thumbnail: isTablet
       ? image.thumbnail.replace(".webp", "Tablet.webp")
-      : image.thumbnail.replace(".webp", "Tablet.webp"),
+      : image.thumbnail.replace(".webp", ".webp"),
     // originalClass: isTablet ? css.imageWidthTablet : css.imageWidth,
   }));
   const gallerySettings = {

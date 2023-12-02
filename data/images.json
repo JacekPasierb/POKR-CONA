@@ -1,7 +1,7 @@
 [
   {
-    "original": "assets/nail01.webp",
-    "thumbnail": "assets/nail01.webp",
+    "original": "assets/nail/nail01.webp",
+    "thumbnail": "assets/nail/nail01.webp",
     "originalWidth": "320px"
   },
   {
@@ -22,6 +22,36 @@
   {
     "original": "assets/nail/nail05.webp",
     "thumbnail": "assets/nail/nail05.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail06.webp",
+    "thumbnail": "assets/nail/nail06.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail07.webp",
+    "thumbnail": "assets/nail/nail07.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail08.webp",
+    "thumbnail": "assets/nail/nail08.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail09.webp",
+    "thumbnail": "assets/nail/nail09.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail10.webp",
+    "thumbnail": "assets/nail/nail10.webp",
+    "originalWidth": "320px"
+  },
+  {
+    "original": "assets/nail/nail11.webp",
+    "thumbnail": "assets/nail/nail11.webp",
     "originalWidth": "320px"
   }
 ]
