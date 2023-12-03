@@ -8,10 +8,15 @@ import GalleryNail from '../../components/GalleryNais/GalleryNail';
 const PortfolioPage = () => {
   return (
     <main className={`${css.container} ${css.gap}`}>
-      <TitleSection title2={"Paznokcie Sara"} />
+      <TitleSection
+        title1={
+          "Zanurz się w świecie kreatywności i piękna razem z nami. Sprawdź nasze portfolio i skorzystaj z naszych usług już dziś."
+        }
+      />
+      <TitleSection title1={"Stylistka Sara i Karolina"} title2={"Stylizacje Paznokci"} />
       <GalleryNail />
-      <TitleSection title2={"Rzęsy Aleksandra"} />
-      <GalleryLash/>
+      <TitleSection title1={"Stylistka Aleksandra"} title2={"Stylizacje Rzęs"} />
+      <GalleryLash />
     </main>
   );
 }
