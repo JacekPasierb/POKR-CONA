@@ -1,57 +1,58 @@
 [
   {
     "original": "assets/nail/nail01.webp",
-    "thumbnail": "assets/nail/nail01.webp",
+    "thumbnail": "assets/nail/nail01thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail02.webp",
-    "thumbnail": "assets/nail/nail02.webp",
+    "thumbnail": "assets/nail/nail02thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail03.webp",
-    "thumbnail": "assets/nail/nail03.webp",
+    "thumbnail": "assets/nail/nail03thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail04.webp",
-    "thumbnail": "assets/nail/nail04.webp",
+    "thumbnail": "assets/nail/nail04thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail05.webp",
-    "thumbnail": "assets/nail/nail05.webp",
+    "thumbnail": "assets/nail/nail05thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail06.webp",
-    "thumbnail": "assets/nail/nail06.webp",
+    "thumbnail": "assets/nail/nail06thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail07.webp",
-    "thumbnail": "assets/nail/nail07.webp",
+    "thumbnail": "assets/nail/nail07thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail08.webp",
-    "thumbnail": "assets/nail/nail08.webp",
+    "thumbnail": "assets/nail/nail08thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail09.webp",
-    "thumbnail": "assets/nail/nail09.webp",
+    "thumbnail": "assets/nail/nail09thumb.webp",
     "originalWidth": "320px"
   },
   {
     "original": "assets/nail/nail10.webp",
-    "thumbnail": "assets/nail/nail10.webp",
+    "thumbnail": "assets/nail/nail10thumb.webp",
     "originalWidth": "320px"
+    
   },
   {
     "original": "assets/nail/nail11.webp",
-    "thumbnail": "assets/nail/nail11.webp",
+    "thumbnail": "assets/nail/nail11thumb.webp",
     "originalWidth": "320px"
   }
 ]

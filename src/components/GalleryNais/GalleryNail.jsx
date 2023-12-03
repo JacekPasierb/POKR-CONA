@@ -2,15 +2,15 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useMediaQuery } from "react-responsive";
-import imagesLash from "../../../data/imagesLash.json";
-import css from "./GalleryLash.module.css";
+import imagesNail from "../../../data/imagesNail.json";
+import css from "./GalleryNail.module.css";
 
-const GalleryLash = () => {
+const GalleryNail = () => {
   const isTablet = useMediaQuery({
     query: "(min-width: 768px) ",
   });
 
-  const imagesFix = imagesLash.map((image) => ({
+  const imagesFix = imagesNail.map((image) => ({
     original: isTablet
       ? image.original.replace(".webp", "Tablet.webp")
       : image.original,
@@ -21,7 +21,7 @@ const GalleryLash = () => {
       <img
         className="image-gallery-image"
         src={item.original}
-        alt="Zdjęcie rzęs"
+        alt="Zdjęcie paznokci"
       />
     );
   };
@@ -30,7 +30,7 @@ const GalleryLash = () => {
       <img
         className="image-gallery-thumbnail-image"
         src={item.thumbnail}
-        alt="Miniatura zdjęcia rzęs"
+        alt="Miniatura zdjęcia paznokci"
       />
     );
   };
@@ -54,4 +54,4 @@ const GalleryLash = () => {
   );
 };
 
-export default GalleryLash;
+export default GalleryNail;
