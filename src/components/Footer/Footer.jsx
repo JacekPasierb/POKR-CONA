@@ -92,12 +92,22 @@ const Footer = () => {
         <div className={css.footerRights}>
           <p>
             © "Pokręcona" Karolina Żamojtel 2023 Wszelkie prawa zastrzeżone.
-            Stronę wraz z projektem opracował: Jacek Pasierb
+            Stronę wraz z projektem opracował:{" "}
+            <a
+              href="https://www.linkedin.com/in/jacek-pasierb"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={css.link}
+            >
+              Jacek Pasierb
+            </a>
           </p>
-          <p onClick={handlePolicyModal}>
+          <p onClick={handlePolicyModal} className={css.link}>
             Polityka Prywatności i Plików Cookies
           </p>
-          {isOpenPolicyModal && <PolicyModal onClose={ handlePolicyModalClose} />}
+          {isOpenPolicyModal && (
+            <PolicyModal onClose={handlePolicyModalClose} />
+          )}
         </div>
       </div>
     </footer>

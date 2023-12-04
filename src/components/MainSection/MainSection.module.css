@@ -1,57 +1,51 @@
-/* .container {
-  padding: 0px 16px;
-  @media screen and (min-width: 768px) {
-    padding: 0px 32px;
-  }
-  @media screen and (min-width: 1200px) {
-    padding: 0px 100px;
-  }
-} */
-/* .container {
-  padding: 0 16px;
-  margin: 0 auto;
-  max-width: 100%;
-  @media screen and (min-width: 480px) {
-    width: calc(480px - 32px);
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
-} */
-.cards {
+@import "../../stylesheet/variables.css";
+
+.mainSection {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  max-width: 100%;
+
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    gap: 50px;
+  }
 }
-.card {
+.boxes {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.picture {
   width: 100%;
-  margin-bottom: 28px;
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .card {
-    width: calc(50% - 32px);
-    margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
   }
 }
-@media screen and (min-width: 1200px) {
-  .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+.title {
+  font-size: var(--font-size-title-S);
+  font-weight: lighter;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-bottom: 14px;
+}
+.iconBox {
+  /* border: 1px dashed  rgba(208, 169, 86, 1); */
+  /* box-shadow: 0px 1px 1px 1px var(--color-primary); */
+  padding: 10px;
+}
+.des {
+  font-size: var(--font-size-title-S);
 
-  .card {
-    width: calc(33.33% - 32px); /* Uwzględnienie marginesu między elementami */
-    margin-bottom: 32px;
-  }
+  color: var(--color-primary);
+  text-transform: uppercase;
 }
