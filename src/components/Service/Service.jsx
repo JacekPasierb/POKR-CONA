@@ -25,7 +25,7 @@ const Service = ({ title, backgroundImage }) => {
 
 Service.propTypes = {
   title: PropTypes.string.isRequired,
-  backgroundImage: PropTypes.string.isRequired,
+  backgroundImage: PropTypes.any.isRequired,
 };
 
 export default Service;

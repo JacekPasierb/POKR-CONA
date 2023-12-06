@@ -4,7 +4,7 @@ import css from "./HomePage.module.css";
 import MainSection from "../../components/MainSection/MainSection";
 
 const ServicesSection = lazy(() =>
-  import("../../components/TestSection/TestSection")
+  import("../../components/ServicesSection/ServicesSection")
 );
 const Line = lazy(() => import("../../components/Line/Line"));
 const ReviewsSection = lazy(() =>
