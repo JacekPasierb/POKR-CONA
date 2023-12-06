@@ -234,3 +234,13 @@
     font-size: 18px;
   }
 }
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.headerContact__call {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ align-items: center;
+}

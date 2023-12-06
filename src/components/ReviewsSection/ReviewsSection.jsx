@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import { IoReceiptOutline } from "react-icons/io5";
 
 import css from "./ReviewsSection.module.css";
 import TitleSection from "../TitleSection/TitleSection";
@@ -52,6 +53,7 @@ const ReviewsSection = () => {
         url={
           "https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1#reviews-section"
         }
+        icon={<IoReceiptOutline />}
       />
     </div>
   );

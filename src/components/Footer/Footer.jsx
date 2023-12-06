@@ -31,6 +31,7 @@ const Footer = () => {
             <p className={css.footerBox__description}>
               <b>Telefon:</b>
             </p>
+
             <p className={css.footerBox__description}>(+48) 666 589 222</p>
             <p className={css.footerBox__description}>
               <b>E-mail:</b>

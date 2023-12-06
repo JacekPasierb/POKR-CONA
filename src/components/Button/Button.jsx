@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import css from "./Button.module.css";
 
-const Button = ({ text, url }) => {
+const Button = ({ text, url, icon }) => {
   const [isShaking, setIsShaking] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Button = ({ text, url }) => {
         type="button"
         className={`${css.button} ${isShaking ? css.buttonAnimation : ""}`}
       >
-        {text}
+        {icon} {text}
       </button>
     </a>
   );

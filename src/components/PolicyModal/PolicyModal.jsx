@@ -74,7 +74,7 @@ const PolicyModal = ({ onClose }) => {
               Ostatnia aktualizacja: 29.11.2023r
             </li>
             <li onClick={onClose}>
-              <p className={css.policyDescription}>Zamknij</p>
+              <p className={`${css.policyDescription} ${css.btn}`}>Zamknij</p>
             </li>
           </ul>
         </div>

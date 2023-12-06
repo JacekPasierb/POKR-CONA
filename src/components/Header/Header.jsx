@@ -2,6 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { useLocation } from "react-router";
 
+import sprite from "../../images/icons/sprite.svg";
 import css from "./Header.module.css";
 import NavBarMobile from "../NavBar/NavBarMobile";
 import NavBarDesctop from "../NavBar/NavBarDesctop";
@@ -28,10 +29,20 @@ const Header = () => {
           <h2 className={css.titleFirst}>Gabinet Kosmetyczny</h2>
         </div>
         <div className={css.headerContact}>
-          <p className={css.headerContact__text}>
-            ul. partyzantów 31, 22-500 Hrubieszów
-          </p>
-          <p className={css.headerContact__text}>+48 666 589 222</p>
+          <div className={css.headerContact__call}>
+            <svg className={`${css.icon}`}>
+              <use href={sprite + `#icon-address-card-o`}></use>
+            </svg>
+            <p className={css.headerContact__text}>
+              ul. partyzantów 31, 22-500 Hrubieszów
+            </p>
+          </div>
+          <div className={css.headerContact__call}>
+            <svg className={`${css.icon}`}>
+              <use href={sprite + `#icon-phone`}></use>
+            </svg>
+            <p className={css.headerContact__text}>+48 666 589 222</p>
+          </div>
         </div>
       </div>
     </header>

@@ -61,6 +61,7 @@
   font-weight: light;
   letter-spacing: 1.4px;
   color: var(--color-secondary);
+  
 
   @media screen and (min-width: 1200px) {
     font-size: var(--font-size-text-M);
@@ -124,4 +125,9 @@
 .link {
   color: var(--color-secondary);
   cursor: pointer;
+}
+.iconContact {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
