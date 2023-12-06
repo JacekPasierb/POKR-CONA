@@ -6,9 +6,10 @@ import sprite from "../../images/icons/sprite.svg";
 import css from "./Header.module.css";
 import NavBarMobile from "../NavBar/NavBarMobile";
 import NavBarDesctop from "../NavBar/NavBarDesctop";
+import Button from "../Button/Button";
 
 const Header = () => {
-  const isMobile = useMediaQuery({ query: `(min-width: 768px)` });
+  const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
   const location = useLocation();
   const { pathname } = location;
 
@@ -21,13 +22,21 @@ const Header = () => {
       } ${pathname === "/procedures" && css.head__background}`}
     >
       <div className={`${css.container} ${css.headContent}`}>
-        {!isMobile ? <NavBarMobile /> : <NavBarDesctop />}
+        {isMobile ? <NavBarMobile /> : <NavBarDesctop />}
 
         <div className={css.title}>
           <h1 className={css.titleSecond}>Karolina Żamojtel</h1>
 
           <h2 className={css.titleFirst}>Gabinet Kosmetyczny</h2>
         </div>
+        {isMobile && (
+          <Button
+            text={"Rezerwuj wizytę"}
+            url={
+              "https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1"
+            }
+          />
+        )}
         <div className={css.headerContact}>
           <div className={css.headerContact__call}>
             <svg className={`${css.icon}`}>

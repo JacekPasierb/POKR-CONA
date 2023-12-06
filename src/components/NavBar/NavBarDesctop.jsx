@@ -34,7 +34,7 @@ const NavBarDesctop = () => {
           url={
             "https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1"
           }
-          icon={<FaRegHandshake />}
+         
         />
       </div>
       <Line color={`rgba(255, 255, 255, 50%) `} />

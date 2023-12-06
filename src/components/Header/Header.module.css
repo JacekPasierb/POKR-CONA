@@ -224,7 +224,7 @@
   padding: 0;
 }
 .headerContact__text {
-  font-size: 10px;
+  font-size: 8px;
   font-weight: lighter;
   color: #000;
   text-transform: uppercase;
@@ -235,8 +235,8 @@
   }
 }
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 .headerContact__call {
   display: flex;
