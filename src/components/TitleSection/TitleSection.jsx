@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import css from "./TitleSection.module.css";
+
 const TitleSection = ({ title1, title2 }) => {
   return (
     <div className={css.titleSection}>

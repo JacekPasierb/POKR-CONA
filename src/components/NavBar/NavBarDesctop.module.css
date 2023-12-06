@@ -6,24 +6,24 @@
 .logo {
   width: 180px;
   height: auto;
-   @media screen and (min-width: 1200px) {
-     width: 290px;
-  height: 100px;
+  @media screen and (min-width: 1200px) {
+    width: 290px;
+    height: 100px;
   }
 }
 
 .navMenu {
   display: flex;
   gap: 20px;
-   @media screen and (min-width: 1200px) {
-   gap: 30px;
+  @media screen and (min-width: 1200px) {
+    gap: 30px;
   }
 }
 .link {
   text-decoration: none;
   font-size: 10px;
   font-weight: 400;
-  
+
   text-align: right;
   color: var(--color-main);
 
@@ -35,7 +35,6 @@
 }
 .link:hover {
   color: var(--color-primary);
-  /* text-decoration: underline; */
 }
 .link:active,
 .link:focus {

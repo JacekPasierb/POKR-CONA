@@ -1,20 +1,19 @@
 .sectionModeling {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 100%;
-    margin-bottom: 32px;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  margin-bottom: 32px;
 }
 .serviceItem {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
 }
 .sectionServices {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

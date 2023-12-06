@@ -1,8 +1,8 @@
 import React from "react";
+
 import css from "./PolicyModal.module.css";
 
-
-const PolicyModal = ({onClose}) => {
+const PolicyModal = ({ onClose }) => {
   return (
     <div className={css.menuWrapper}>
       <div className={css.menu}>

@@ -1,8 +1,8 @@
-import React, {  Suspense, lazy } from "react";
+import React, { Suspense, lazy } from "react";
+import { Outlet } from "react-router";
 
 import css from "./DashboardPage.module.css";
 import Header from "../../components/Header/Header";
-import { Outlet } from "react-router";
 
 const LastSection = lazy(() =>
   import("../../components/LastSection/LastSection")

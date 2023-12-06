@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+
 import css from "./ProceduresPage.module.css";
 
 const ProceduresPage = () => {
@@ -7,6 +8,6 @@ const ProceduresPage = () => {
       <h3>ZAKŁADKA W BUDOWIE</h3>
     </main>
   );
-}
+};
 
-export default ProceduresPage
+export default ProceduresPage;

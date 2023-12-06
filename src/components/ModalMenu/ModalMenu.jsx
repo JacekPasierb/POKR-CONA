@@ -1,27 +1,28 @@
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import css from "./ModalMenu.module.css";
 import { GrWorkshop } from "react-icons/gr";
 import { IoHomeOutline } from "react-icons/io5";
 import { SiAboutdotme } from "react-icons/si";
 import { GiFingernail } from "react-icons/gi";
 import { RxBoxModel } from "react-icons/rx";
 import { FaRegWindowClose } from "react-icons/fa";
-import logoMobile from "../../images/LogoMobile.png";
-import React from "react";
 import { IconContext } from "react-icons";
+import PropTypes from "prop-types";
+
+import css from "./ModalMenu.module.css";
 
 const ModalMenu = ({ onClose }) => {
   const navigate = useNavigate();
 
   const handleLinkClick = (path) => {
-    onClose(); // Zamknięcie modala
-    navigate(path); // Przekierowanie do nowej trasy
+    onClose();
+    navigate(path);
   };
+
   return (
     <div className={css.menuWrapper}>
       <div className={css.menu}>
         <div className={css.boxes}>
-          
           <div className={css.row2}>
             <Link to="#" className={css.link} onClick={onClose}>
               <div className={css.box1}>
@@ -133,42 +134,8 @@ const ModalMenu = ({ onClose }) => {
   );
 };
 
-export default ModalMenu;
+ModalMenu.propTypes = {
+  onClose: PropTypes.func.isRequired,
+};
 
-//  <nav className={css.navMenu}>
-//           <Link
-//             to="/"
-//             className={css.link}
-//             onClick={() => handleLinkClick("/")}
-//           >
-//             Strona Główna
-//           </Link>
-//           <Link
-//             to="/about"
-//             className={css.link}
-//             onClick={() => handleLinkClick("/about")}
-//           >
-//             O nas
-//           </Link>
-//           <Link
-//             to="/portfolio"
-//             className={css.link}
-//             onClick={() => handleLinkClick("/portfolio")}
-//           >
-//             Nasze Portfolio
-//           </Link>
-//           <Link
-//             to="/pricing"
-//             className={css.link}
-//             onClick={() => handleLinkClick("/pricing")}
-//           >
-//             Cennik
-//           </Link>
-//           <Link
-//             to="/procedures"
-//             className={css.link}
-//             onClick={() => handleLinkClick("/procedures")}
-//           >
-//             Poznaj Zabiegi
-//           </Link>
-//         </nav>
+export default ModalMenu;

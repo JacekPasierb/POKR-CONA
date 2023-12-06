@@ -29,7 +29,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route element={showModalWelcome ? <WelcomePage/> : <DashboardPage />}>
+        <Route element={showModalWelcome ? <WelcomePage /> : <DashboardPage />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />

@@ -2,8 +2,9 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useMediaQuery } from "react-responsive";
-import imagesNail from "../../../data/imagesNail.json";
+
 import css from "./GalleryNail.module.css";
+import imagesNail from "../../../data/imagesNail.json";
 
 const GalleryNail = () => {
   const isTablet = useMediaQuery({

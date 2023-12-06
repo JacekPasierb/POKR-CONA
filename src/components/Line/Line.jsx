@@ -1,4 +1,5 @@
 import React from "react";
+
 import css from "./Line.module.css";
 
 const Line = ({ color }) => {

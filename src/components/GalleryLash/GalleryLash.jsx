@@ -2,8 +2,9 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { useMediaQuery } from "react-responsive";
-import imagesLash from "../../../data/imagesLash.json";
+
 import css from "./GalleryLash.module.css";
+import imagesLash from "../../../data/imagesLash.json";
 
 const GalleryLash = () => {
   const isTablet = useMediaQuery({

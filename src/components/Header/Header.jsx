@@ -1,10 +1,10 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
+import { useLocation } from "react-router";
 
 import css from "./Header.module.css";
 import NavBarMobile from "../NavBar/NavBarMobile";
 import NavBarDesctop from "../NavBar/NavBarDesctop";
-import { useLocation } from "react-router";
 
 const Header = () => {
   const isMobile = useMediaQuery({ query: `(min-width: 768px)` });

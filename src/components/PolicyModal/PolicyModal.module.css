@@ -27,24 +27,24 @@
   width: 320px;
   max-height: 70vh;
   overflow-y: auto;
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 100%;
     min-height: 90vh;
   }
 }
 .policyTitle {
-font-size: 10px;
-font-weight: bold;
-color: var(--color-secondary);
-@media screen and (min-width: 768px) {
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--color-secondary);
+  @media screen and (min-width: 768px) {
     font-size: 14px;
   }
 }
 .policyDescription {
-font-size: 6px;
-font-weight: lighter;
-color: var(--color-secondary);
-@media screen and (min-width: 768px) {
+  font-size: 6px;
+  font-weight: lighter;
+  color: var(--color-secondary);
+  @media screen and (min-width: 768px) {
     font-size: 10px;
   }
 }

@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from "react";
-import css from "./TestSection.module.css";
-import TitleSection from "../TitleSection/TitleSection";
-import pricings from "../../../data/pricings.json";
-
-import g from "../../images/facialCareDesctop1x.jpg";
+import React from "react";
 import { useMediaQuery } from "react-responsive";
-import Service from "../Service/Service";
-import Service1 from "../Service1/Service1";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
-const TestSection = () => {
+
+import css from "./ServicesSection.module.css";
+import TitleSection from "../TitleSection/TitleSection";
+import pricings from "../../../data/pricings.json";
+import Service from "../Service/Service";
+
+const ServicesSection = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -47,7 +46,7 @@ const TestSection = () => {
         {pricings.map((price) => (
           <li key={price.id} className={css.card}>
             <Link to={`/pricing#${price.Picture}`} className={css.link}>
-              <Service1
+              <Service
                 title={price.Category}
                 backgroundImage={getBackgroundImage(`${price.Picture}`)}
               />
@@ -60,4 +59,4 @@ const TestSection = () => {
   );
 };
 
-export default TestSection;
+export default ServicesSection;

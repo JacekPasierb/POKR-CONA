@@ -3,7 +3,7 @@ import React, { lazy, Suspense } from "react";
 import css from "./HomePage.module.css";
 import MainSection from "../../components/MainSection/MainSection";
 
-const TestSection = lazy(() =>
+const ServicesSection = lazy(() =>
   import("../../components/TestSection/TestSection")
 );
 const Line = lazy(() => import("../../components/Line/Line"));
@@ -19,7 +19,7 @@ const HomePage = () => {
         <Line color={`rgba(0, 0, 0, 50%) `} />
       </Suspense>
       <Suspense fallback={<div>Loading service... </div>}>
-        <TestSection />
+        <ServicesSection />
       </Suspense>
 
       <Suspense fallback={<div>Loading style... </div>}>

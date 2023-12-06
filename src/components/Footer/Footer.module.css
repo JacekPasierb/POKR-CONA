@@ -60,7 +60,7 @@
   font-size: var(--font-size-text);
   font-weight: light;
   letter-spacing: 1.4px;
-color: var(--color-secondary);
+  color: var(--color-secondary);
 
   @media screen and (min-width: 1200px) {
     font-size: var(--font-size-text-M);
@@ -68,7 +68,6 @@ color: var(--color-secondary);
 }
 .footerSocial {
   text-align: center;
-  
 }
 .footerBox__icons {
   display: flex;
@@ -88,7 +87,7 @@ color: var(--color-secondary);
 }
 .footerRights p {
   font-size: var(--font-size-text);
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: var(--font-size-text-M);
   }
 }
@@ -114,7 +113,7 @@ color: var(--color-secondary);
 }
 .booksy {
   fill: #ffffff;
-  background-color: #0B9EA8;
+  background-color: #0b9ea8;
   border-radius: 8px;
 }
 .gap {

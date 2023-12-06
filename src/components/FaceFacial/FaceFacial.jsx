@@ -1,8 +1,8 @@
 import React from "react";
 
+import css from "./FaceFacial.module.css";
 import TitlePricing from "../TitlePricing/TitlePricing";
 import pricings from "../../../data/pricings.json";
-import css from "./FaceFacial.module.css";
 import Line from "../Line/Line";
 
 const FaceFacial = () => {

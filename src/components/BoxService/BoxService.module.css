@@ -19,7 +19,6 @@
   opacity: 0.1;
   transform: translateY(60px);
   animation: fadeIn linear 2s forwards;
-  
 }
 
 @keyframes fadeIn {

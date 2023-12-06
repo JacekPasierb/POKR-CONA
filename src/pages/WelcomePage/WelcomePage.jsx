@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import css from "./WelcomePage.module.css";
-
-import TitleSection from "../../components/TitleSection/TitleSection";
 import { useMediaQuery } from "react-responsive";
+
+import css from "./WelcomePage.module.css";
 
 const WelcomePage = () => {
   const [background, setBackground] = useState("");
@@ -15,7 +14,6 @@ const WelcomePage = () => {
   const isDesctop = useMediaQuery({ query: "(min-width: 1200px)" });
 
   const getBackgroundImage = async (titleImage) => {
-    console.log("test", titleImage);
     let imagePath = "";
     if (isMobile) {
       imagePath = await import(`../../images/${titleImage}Mobile1x.png`);

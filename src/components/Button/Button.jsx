@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import css from "./Button.module.css";
 import PropTypes from "prop-types";
+
+import css from "./Button.module.css";
 
 const Button = ({ text, url }) => {
   const [isShaking, setIsShaking] = useState(false);
@@ -17,6 +18,7 @@ const Button = ({ text, url }) => {
       clearInterval(intervalId);
     };
   }, []);
+
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <button
@@ -31,6 +33,7 @@ const Button = ({ text, url }) => {
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
 };
 
 export default Button;

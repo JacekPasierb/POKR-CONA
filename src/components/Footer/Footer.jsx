@@ -1,16 +1,17 @@
 import React from "react";
+import { useState } from "react";
+
 import css from "./Footer.module.css";
 import Line from "../Line/Line";
 import sprite from "../../images/icons/sprite.svg";
 import PolicyModal from "../PolicyModal/PolicyModal";
-import { useState } from "react";
 
 const Footer = () => {
   const [isOpenPolicyModal, setIsOpenPolicyModal] = useState(false);
   const handlePolicyModal = () => {
     setIsOpenPolicyModal(true);
   };
-  
+
   const handlePolicyModalClose = () => {
     setIsOpenPolicyModal(false);
   };

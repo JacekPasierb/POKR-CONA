@@ -1,10 +1,10 @@
 import React from "react";
-import main from "../../images/main.jpg";
-import css from "./MainSection.module.css";
-import TitleSection from "../TitleSection/TitleSection";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { GrVirtualMachine } from "react-icons/gr";
 import { MdOutlineSentimentSatisfied } from "react-icons/md";
+
+import css from "./MainSection.module.css";
+import main from "../../images/main.jpg";
 
 const MainSection = () => {
   return (
@@ -55,7 +55,6 @@ const MainSection = () => {
         </div>
         <div>
           <p className={css.title}>
-            {" "}
             Zapraszamy Cię do skorzystania z naszych usług, aby doświadczyć
             profesjonalizmu i skuteczności naszych zabiegów kosmetycznych ciała.
             Nasz priorytet to Twoje zadowolenie i osiągnięcie zamierzonych

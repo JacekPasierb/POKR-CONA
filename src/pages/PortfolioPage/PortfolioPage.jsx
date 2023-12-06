@@ -1,9 +1,9 @@
-import React from 'react'
-import css from "./PortfolioPage.module.css";
+import React from "react";
 
+import css from "./PortfolioPage.module.css";
 import TitleSection from "../../components/TitleSection/TitleSection";
-import GalleryLash from '../../components/GalleryLash/GalleryLash';
-import GalleryNail from '../../components/GalleryNais/GalleryNail';
+import GalleryLash from "../../components/GalleryLash/GalleryLash";
+import GalleryNail from "../../components/GalleryNais/GalleryNail";
 
 const PortfolioPage = () => {
   return (
@@ -13,12 +13,18 @@ const PortfolioPage = () => {
           "Zanurz się w świecie kreatywności i piękna razem z nami. Sprawdź nasze portfolio i skorzystaj z naszych usług już dziś."
         }
       />
-      <TitleSection title1={"Stylistka Sara i Karolina"} title2={"Stylizacje Paznokci"} />
+      <TitleSection
+        title1={"Stylistka Sara i Karolina"}
+        title2={"Stylizacje Paznokci"}
+      />
       <GalleryNail />
-      <TitleSection title1={"Stylistka Aleksandra"} title2={"Stylizacje Rzęs"} />
+      <TitleSection
+        title1={"Stylistka Aleksandra"}
+        title2={"Stylizacje Rzęs"}
+      />
       <GalleryLash />
     </main>
   );
-}
+};
 
-export default PortfolioPage
+export default PortfolioPage;

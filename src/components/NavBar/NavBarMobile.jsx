@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import css from "./NavBarMobile.module.css";
-
-import logoMobile from "../../images/LogoMobile.png";
-import logoTablet from "../../images/LogoTablet.png";
+import { useMediaQuery } from "react-responsive";
 import { TfiClose } from "react-icons/tfi";
 import { FaBars } from "react-icons/fa";
+
+import css from "./NavBarMobile.module.css";
+import logoMobile from "../../images/LogoMobile.png";
+import logoTablet from "../../images/LogoTablet.png";
 import ModalMenu from "../ModalMenu/ModalMenu";
 import Line from "../Line/Line.jsx";
-import { useMediaQuery } from "react-responsive";
 
 const NavBarMobile = () => {
   const [showMenu, setShowMenu] = useState(false);

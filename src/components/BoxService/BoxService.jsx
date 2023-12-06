@@ -1,14 +1,17 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
+import PropTypes from "prop-types";
+
+import css from "./BoxService.module.css";
+
 import TitlePricing from "../TitlePricing/TitlePricing";
 import Line from "../Line/Line";
-import css from "./BoxService.module.css";
-import PropTypes from "prop-types";
-import { useInView } from "react-intersection-observer";
 
 const BoxService = ({ pricing, service }) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
+
   return (
     <div ref={ref} className={inView ? css.fadeIn : ""}>
       <TitlePricing title1={pricing.Category} title2={service.name} />
