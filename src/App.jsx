@@ -44,21 +44,3 @@ const App = () => {
 
 export default App;
 
-//  <div className="styleSection">
-//    {showModalWelcome && <WelcomePage />}
-//    {!showModalWelcome && (
-//      <>
-//        <Header />
-//        <Routes>
-//          <Route path="/" element={<HomePage />} />
-//          <Route path="/about" element={<AboutPage />} />
-//          <Route path="/portfolio" element={<PortfolioPage />} />
-//          <Route path="/pricing" element={<PricingPage />} />
-//          <Route path="/procedures" element={<ProceduresPage />} />
-//          <Route path="*" element={<NotFoundPage />} />
-//        </Routes>
-//        <LastSection />
-//        <Footer />
-//      </>
-//    )}
-//  </div>;
