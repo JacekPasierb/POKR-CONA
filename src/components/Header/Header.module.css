@@ -62,7 +62,8 @@
     ),
     url("../../images/headerAboutMobile1x.jpg");
   background-size: cover;
-  background-position: 0 20%;
+  background-position: center center;
+
   padding-block: 18px;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -79,7 +80,7 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../../images/headerAboutTablet1x.jpg");
-
+     background-position: 0 20%;
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -242,5 +243,5 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
- align-items: center;
+  align-items: center;
 }

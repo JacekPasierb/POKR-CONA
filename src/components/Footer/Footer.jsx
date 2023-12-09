@@ -44,7 +44,7 @@ const Footer = () => {
             <h4 className={css.footerBox__title}>Zapraszamy</h4>
 
             <p className={css.footerBox__description}>
-              <b>Poniedziałek - Piątek:</b>
+              <b>Wtorek - Piątek:</b>
             </p>
             <p className={css.footerBox__description}>9:00 - 17:00</p>
             <p className={css.footerBox__description}>
@@ -52,7 +52,7 @@ const Footer = () => {
             </p>
             <p className={css.footerBox__description}> 8:00 - 14:00</p>
             <p className={css.footerBox__description}>
-              <b>Niedziela:</b>
+              <b>Niedziela - Poniedziałek:</b>
             </p>
             <p className={css.footerBox__description}> Zamknięte </p>
           </div>
