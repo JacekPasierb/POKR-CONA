@@ -4,7 +4,7 @@ import { GrVirtualMachine } from "react-icons/gr";
 import { MdOutlineSentimentSatisfied } from "react-icons/md";
 
 import css from "./MainSection.module.css";
-import main from "../../images/main.jpg";
+import main from "../../images/back.jpg";
 
 const MainSection = () => {
   return (
