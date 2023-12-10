@@ -4,12 +4,35 @@ import { GrVirtualMachine } from "react-icons/gr";
 import { MdOutlineSentimentSatisfied } from "react-icons/md";
 
 import css from "./MainSection.module.css";
-import main from "../../images/back.jpg";
+import mainMobile from "../../images/mainMobile";
+import mainMobileRetina from "../../images/mainMobileRetina";
+import mainTablet from "../../images/mainTablet";
+import mainTabletRetina from "../../images/mainTabletRetina";
+import mainDesktop from "../../images/mainDesctop";
+import mainDesktopRetina from "../../images/mainDesctopRetina";
 
 const MainSection = () => {
   return (
     <div className={css.mainSection}>
-      <img src={main} className={css.picture} />
+      <picture>
+        <source
+          media="(min-width: 1920px)"
+          srcSet={`${mainDesktop} 1x, ${mainDesktopRetina} 2x`}
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcSet={`${mainTablet} 1x, ${mainTabletRetina} 2x`}
+        />
+
+        <img
+          srcSet={`${mainMobile} 1x, ${mainMobileRetina} 2x`}
+          src={mainMobile}
+          alt="Main"
+          className={css.picture}
+        />
+      </picture>
+
       <div className={css.boxes}>
         <div className={css.box}>
           <p className={css.title}>
