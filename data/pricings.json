@@ -2,24 +2,24 @@
   {
     "id": 1,
     "Category": "Modelowanie ciała",
-    "Picture":"modeling",
+    "Picture": "modeling",
     "Services": [
       {
         "name": "EMS Elektro-stymulacja mięśni",
         "options": [
           {
             "id": 1100,
-            "option": "Opcja 1",
+            "option": "Wariant 1",
             "value": "130 zł / 30 min"
           },
           {
             "id": 1101,
-            "option": "Opcja 2",
+            "option": "Wariant 2",
             "value": "160 zł / 45 min"
           },
           {
             "id": 1102,
-            "option": "Opcja 3",
+            "option": "Wariant 3",
             "value": "190 zł / 60 min"
           }
         ]
@@ -35,7 +35,7 @@
           {
             "id": 1201,
             "option": "1 przyłożenie",
-            "value": "320 zł / 40 minut"
+            "value": "320 zł / 50 minut"
           },
           {
             "id": 1202,
@@ -59,17 +59,22 @@
         "options": [
           {
             "id": 1300,
-            "option": "Opcja 1",
-            "value": "150 zł / 45 minut"
+            "option": "1 Partia",
+            "value": "80 zł / 25 minut"
           },
           {
             "id": 1301,
-            "option": "Opcja 2",
-            "value": "200 zł / 60 minut"
+            "option": "2 Partie",
+            "value": "150 zł / 45 minut"
           },
           {
             "id": 1302,
-            "option": "Opcja 3",
+            "option": "3 Partie",
+            "value": "200 zł / 60 minut"
+          },
+          {
+            "id": 1303,
+            "option": "4 Partie / Całe ciało",
             "value": "240 zł / 1 h 20 minut"
           }
         ]
@@ -87,7 +92,7 @@
           {
             "id": 2100,
             "option": "kwas - retinol + wit. c",
-            "value": "200 zł / 30 minut"
+            "value": "230 zł / 40 minut"
           },
           {
             "id": 2101,
@@ -103,6 +108,26 @@
             "id": 2102,
             "option": "endermologia twarzy + szyja + dekolt",
             "value": "200 zł / 1 h 20 minut"
+          },
+          {
+            "id": 2103,
+            "option": "mezoterapia mikroigłowa",
+            "value": "240 zł / 1 h 20 minut"
+          },
+          {
+            "id": 2104,
+            "option": "peeling medyczny: azelainowy + salicylowy",
+            "value": "220 zł / 45 minut"
+          },
+          {
+            "id": 2105,
+            "option": "Zabieg anti-aging na skórę wokół oczu",
+            "value": "280 zł / 1 h"
+          },
+          {
+            "id": 2106,
+            "option": "Zabieg bankietowy rozświetlająco-napinający",
+            "value": "240 zł / 1 h"
           }
         ]
       }
@@ -114,103 +139,29 @@
     "Picture": "nailStyling",
     "Services": [
       {
-        "name": "Hybryda",
+        "name": "Paznokcie Sara",
         "options": [
-          {
-            "id": 2100,
-            "option": "zdobienie",
-            "value": "110 zł + / 1 h 30 minut"
-          },
           {
             "id": 2101,
             "option": "manicure hybrydowy",
-            "value": "100 zł / 1 h 30 minut"
-          },
-          {
-            "id": 2102,
-            "option": "baby boomer",
-            "value": "110 zł / 1 h 40 minut"
-          },
-          {
-            "id": 2102,
-            "option": "french",
-            "value": "120 zł / 1 h 40 minut"
-          },
-          {
-            "id": 2102,
-            "option": "zdobienie akwarela",
-            "value": "120 zł + / 2 h"
-          }
-        ]
-      },
-      {
-        "name": "Hybryda + Akrylożel",
-        "options": [
-          {
-            "id": 2100,
-            "option": "french",
-            "value": "140 zł + / 2 h"
-          },
-          {
-            "id": 2101,
-            "option": "baby boomer",
-            "value": "130 zł / 2 h"
+            "value": "110 zł / 1 h 30 minut"
           },
           {
             "id": 2102,
             "option": "manicure hybrydowy + utwardzenie akrylożelem",
-            "value": "120 zł / 2 h"
-          },
-          {
-            "id": 2102,
-            "option": "zdobienie",
-            "value": "130 zł + / 2 h 10 minut"
-          },
-          {
-            "id": 2102,
-            "option": "zdobienie akwarela",
-            "value": "140 zł + / 2 h 30 minut"
-          }
-        ]
-      },
-      {
-        "name": "hybryda + przedłużenie",
-        "options": [
-          {
-            "id": 2100,
-            "option": "zdobienie",
-            "value": "160 zł + / 2 h 30 minut"
-          },
-          {
-            "id": 2101,
-            "option": "french",
-            "value": "170 zł / 2 h 30 minut"
-          },
-          {
-            "id": 2102,
-            "option": "baby boomer",
-            "value": "160 zł / 2 h 30 minut"
+            "value": "130 zł / 2 h"
           },
           {
             "id": 2102,
             "option": "manicure hybrydowy + przedłużenie akrylożelem",
-            "value": "150 zł + / 2 h 30 minut"
-          },
-          {
-            "id": 2102,
-            "option": "akwarela",
-            "value": "180 zł + / 3 h"
+            "value": "160 zł + / 2 h 30 minut"
           },
           {
             "id": 2102,
             "option": "manicure klasyczny + odżywka",
             "value": "50 zł + / 40 minut"
-          }
-        ]
-      },
-      {
-        "name": "ściąganie hybrydy",
-        "options": [
+          },
+
           {
             "id": 2100,
             "option": "ściągnięcie hybrydy",
@@ -220,6 +171,82 @@
             "id": 2101,
             "option": "ściągnięcie hybrydy + manicure klasyczny",
             "value": "40 zł / 40 minut"
+          },
+          {
+            "id": 2100,
+            "option": "ściągnięcie akrylożelu",
+            "value": "40 zł / 30 minut"
+          },
+          {
+            "id": 2101,
+            "option": "ściągnięcie hybrydy + manicure klasyczny",
+            "value": "60 zł / 40 minut"
+          },
+          {
+            "id": 2101,
+            "option": "Naprawa 1 paznokcia",
+            "value": "10 zł / 20 minut"
+          },
+          {
+            "id": 2101,
+            "option": "Zdobienie",
+            "value": "10 zł / 10 minut"
+          },
+          {
+            "id": 2102,
+            "option": "baby boomer",
+            "value": "10 zł / 10 minut"
+          },
+          {
+            "id": 2102,
+            "option": "french",
+            "value": "20 zł / 15 minut"
+          },
+          {
+            "id": 2102,
+            "option": "akwarela",
+            "value": "30 zł + / 30 minut"
+          }
+        ]
+      },
+      {
+        "name": "Paznokcie Karolina",
+        "options": [
+          {
+            "id": 2101,
+            "option": "manicure hybrydowy",
+            "value": "90 zł / 2 h"
+          },
+          {
+            "id": 2102,
+            "option": "manicure hybrydowy + utwardzenie akrylożelem",
+            "value": "110 zł / 2 h 30 minut"
+          },
+          {
+            "id": 2102,
+            "option": "manicure hybrydowy + przedłużenie akrylożelem",
+            "value": "140 zł + / 3 h 15 minut"
+          },
+
+          {
+            "id": 2100,
+            "option": "ściągnięcie hybrydy",
+            "value": "20 zł / 30 minut"
+          },
+          {
+            "id": 2101,
+            "option": "ściągnięcie hybrydy + manicure klasyczny",
+            "value": "40 zł / 45 minut"
+          },
+          {
+            "id": 2100,
+            "option": "ściągnięcie akrylożelu",
+            "value": "40 zł / 45 minut"
+          },
+          {
+            "id": 2101,
+            "option": "ściągnięcie hybrydy + manicure klasyczny",
+            "value": "60 zł / 1 h"
           }
         ]
       }
@@ -236,32 +263,32 @@
           {
             "id": 2100,
             "option": "rzęsy 2-3 D",
-            "value": "130 zł / 3 h"
+            "value": "150 zł / 2 h 30 minut"
           },
           {
             "id": 2101,
             "option": "rzęsy 4-6 D",
-            "value": "150 zł / 3 h 45 minut"
+            "value": "170 zł / 2 h 45 minut"
           },
           {
             "id": 2102,
             "option": "rzęsy 7-9 D",
-            "value": "170 zł / 4 h"
+            "value": "190 zł / 2 h 45 minut"
           },
           {
             "id": 2102,
             "option": "rzęsy 2-3 D uzupełnienie",
-            "value": "110 zł / 2 h 15 minut"
+            "value": "120 zł / 2 h 15 minut"
           },
           {
             "id": 2102,
             "option": "rzęsy 4-6 D uzupełnienie",
-            "value": "130 zł / 2 h 45 minut"
+            "value": "140 zł / 2 h 15 minut"
           },
           {
             "id": 2102,
             "option": "rzęsy 7-9 D uzupełnienie",
-            "value": "150 zł / 2 h 45 minut"
+            "value": "160 zł / 2 h 30 minut"
           },
           {
             "id": 2102,
@@ -283,17 +310,17 @@
           {
             "id": 1100,
             "option": "laminacja rzęs + brwi",
-            "value": "160 zł / 1 h 30 minut"
+            "value": "190 zł / 1 h 30 minut"
           },
           {
             "id": 1101,
             "option": "laminacja rzęs",
-            "value": "120 zł / 1 h 10 minut"
+            "value": "140 zł / 1 h 20 minut"
           },
           {
             "id": 1102,
             "option": "laminacja brwi + farbowanie",
-            "value": "70 zł / 45 minut"
+            "value": "80 zł / 45 minut"
           }
         ]
       }
@@ -310,12 +337,12 @@
           {
             "id": 1100,
             "option": "henna żelowa + regulacja",
-            "value": "35 zł / 30 minut"
+            "value": "40 zł / 30 minut"
           },
           {
             "id": 1101,
             "option": "henna pudrowa + regulacja",
-            "value": "80 zł / 1 h"
+            "value": "80 zł / 4 h"
           }
         ]
       }
