@@ -33,13 +33,10 @@ const MainSection = () => {
         </div>
         <div>
           <p className={css.title}>
-            Specjalizujemy się w zaawansowanych technikach, takich jak
-            kriolipoliza i endermologia, które są skierowane na poprawę kondycji
-            ciała oraz zachowanie jego zdrowego wyglądu. Kriolipoliza to
-            innowacyjna metoda redukcji tkanki tłuszczowej poprzez kontrolowane
-            schładzanie obszarów problematycznych. Endermologia to zaawansowana
-            technologia, która skupia się na ujędrnianiu skóry i redukcji
-            cellulitu.
+            Specjalizujemy się w najnowocześniejszych technikach modelowania
+            sylwetki działających na najczęstsze problemy tj. tkanka tłuszczowa,
+            cellulit, rozstępy, wiotka skóra, zmarszczki. Do tego wykorzystujemy
+            zabiegi: kriolipolizy endermologii oraz elektrostymulację mięśni EMS
           </p>
           <div className={css.iconBox}>
             <p className={css.des}>NOWOCZESNA</p>

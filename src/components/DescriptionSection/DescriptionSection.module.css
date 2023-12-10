@@ -1,0 +1,14 @@
+@import "../../stylesheet/variables.css";
+
+.description {
+  font-size: var(--font-size-title-S);
+  font-weight: lighter;
+  color: var(--color-secondary);
+  text-transform:initial;
+  letter-spacing: 1.4px;
+  text-align: center;
+  
+  @media screen and (min-width: 768px) {
+    font-size: var(--font-size-title-S);
+  }
+}
