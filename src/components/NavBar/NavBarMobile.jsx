@@ -6,6 +6,7 @@ import { FaBars } from "react-icons/fa";
 import css from "./NavBarMobile.module.css";
 import logoMobile from "../../images/LogoMobile.png";
 import logoTablet from "../../images/LogoTablet.png";
+import logoLaptop from "../../images/LogoLaptop.png";
 import ModalMenu from "../ModalMenu/ModalMenu";
 import Line from "../Line/Line.jsx";
 
@@ -23,10 +24,15 @@ const NavBarMobile = () => {
       <div className={css.wrapper}>
         <img
           className={css.logo}
-          src={isMobile ? logoMobile : logoTablet}
+          src={logoLaptop}
           alt="logoPokręcona"
         />
-        <button type="button" onClick={toggleMenu} className={css.buttonMenu}>
+        <button
+          type="button"
+          onClick={toggleMenu}
+          className={css.buttonMenu}
+          aria-label="Otwórz menu"
+        >
           {showMenu ? (
             <TfiClose className={css.iconStyle} />
           ) : (

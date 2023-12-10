@@ -22,7 +22,7 @@ const Footer = () => {
         <div className={css.footerBoxes}>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>"Pokręcona"</h4>
-            <h4 className={css.footerBox__title}>Karolina Żamojtel</h4>
+            <h5 className={css.footerBox__title}>Karolina Żamojtel</h5>
             <p className={css.footerBox__description}>ul. Partyzantów 31</p>
             <p className={css.footerBox__description}>22-500 Hrubieszów</p>
           </div>
@@ -65,6 +65,7 @@ const Footer = () => {
               href="https://www.facebook.com/profile.php?id=100095404849968"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Facebook"
             >
               <svg className={`${css.icon} ${css.fb}`}>
                 <use href={sprite + `#icon-Facebook`}></use>
@@ -74,6 +75,7 @@ const Footer = () => {
               href="https://www.instagram.com/pokrecona_karolina_zamojtel/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Instagram"
             >
               <svg className={`${css.icon} ${css.insta}`}>
                 <use href={sprite + `#icon-Instagram`}></use>
@@ -83,6 +85,7 @@ const Footer = () => {
               href="https://booksy.com/pl-pl/175350_pokrecona_salon-kosmetyczny_7750_hrubieszow?do=invite#ba_s=dl_1"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Booksy"
             >
               <svg className={`${css.icon} ${css.booksy}`}>
                 <use href={sprite + `#icon-booksy-seeklogocom`}></use>
