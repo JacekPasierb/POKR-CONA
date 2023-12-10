@@ -21,7 +21,10 @@ const BoxService = ({ pricing, service }) => {
             <li key={option.id}>
               <div className={css.serviceItem}>
                 <p>{option.option}</p>
-                <p className={css.serviceItemValue}>{option.value}</p>
+                <div>
+                  <p className={css.serviceItemValue}>{option.price}</p>
+                  <p className={css.serviceItemValue}>{option.time}</p>
+                </div>
               </div>
               <Line color={"rgba(208, 169, 86, 0.2)"} />
             </li>
