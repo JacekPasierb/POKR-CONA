@@ -7,6 +7,7 @@ import TitleSection from "../../components/TitleSection/TitleSection";
 const ProceduresPage = () => {
   return (
     <main className={`${css.container} ${css.gap}`}>
+      <TitleSection title2={"Zabiegi"}/>
       <div className={css.back}>
         <TitleSection
           title1={
