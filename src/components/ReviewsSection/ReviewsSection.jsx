@@ -17,11 +17,11 @@ const ReviewsSection = () => {
     <div ref={ref} className={css.reviewSection}>
       <TitleSection title1="Opinie Klientów" title2="Tak o nas piszą" />
       <ul className={css.reviewsBox}>
-        {reviews.map((review) => (
+        {reviews.map((review, index) => (
           <li
             key={review.id}
             ref={ref}
-            className={`${css.reviewBox} ${inView ? css.fadeIn : ""}`}
+            className={`${css.reviewBox} ${inView ? css[`fadeIn${index}`] : ""} `}
           >
             <div className={css.line}></div>
             <div>
