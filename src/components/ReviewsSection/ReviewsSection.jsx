@@ -14,14 +14,15 @@ const ReviewsSection = () => {
   });
 
   return (
-    <div
-      ref={ref}
-      className={`${css.reviewSection} ${inView ? css.fadeIn : ""}`}
-    >
+    <div ref={ref} className={css.reviewSection}>
       <TitleSection title1="Opinie Klientów" title2="Tak o nas piszą" />
       <ul className={css.reviewsBox}>
         {reviews.map((review) => (
-          <li key={review.id} className={css.reviewBox}>
+          <li
+            key={review.id}
+            ref={ref}
+            className={`${css.reviewBox} ${inView ? css.fadeIn : ""}`}
+          >
             <div className={css.line}></div>
             <div>
               <svg className={css.icon}>

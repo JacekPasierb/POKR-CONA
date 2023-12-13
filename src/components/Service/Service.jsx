@@ -2,8 +2,12 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
 import css from "./Service.module.css";
+import { useInView } from "react-intersection-observer";
 
 const Service = ({ title, backgroundImage }) => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
   const [background, setBackground] = useState("");
 
   useEffect(() => {
@@ -16,10 +20,10 @@ const Service = ({ title, backgroundImage }) => {
   }, [backgroundImage]);
 
   return (
-    <>
+    <div ref={ref} className={`${inView ? css.fadeIn : ""} ${css.card}`}>
       <img src={background} alt={title} />
       <p className={css.serviceBox__title}>{title}</p>
-    </>
+    </div>
   );
 };
 

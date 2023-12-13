@@ -40,7 +40,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <div ref={ref} className={inView ? css.fadeIn : ""}>
+    <div>
       <TitleSection title1="Zakres usług" title2="Zadbaj o siebie" />
       <ul className={css.cards}>
         {pricings.map((price) => (
@@ -49,6 +49,8 @@ const ServicesSection = () => {
               <Service
                 title={price.Category}
                 backgroundImage={getBackgroundImage(`${price.Picture}`)}
+               
+             
               />
               <p className={css.serviceBox__overlay}>Sprawdź ofertę</p>
             </Link>
