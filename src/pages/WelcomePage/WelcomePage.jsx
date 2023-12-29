@@ -44,7 +44,13 @@ const WelcomePage = () => {
     <div className={`${css.welcomePage} `}>
       <div className={`${css.container}`}>
         <div className={css.content}>
-          <img src={background} alt="Logo" className={css.logo} />
+          <img
+            src={background}
+            alt="Logo"
+            width=" 343"
+            height=" 346"
+            className={css.logo}
+          />
           <div className={css.title}>
             <h2 className={css.titleSecond}>Karolina Żamojtel</h2>
 
