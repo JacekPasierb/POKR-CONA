@@ -20,13 +20,13 @@ const Footer = () => {
     <footer className={css.footer}>
       <div className={`${css.container} ${css.gap}`}>
         <div className={css.footerBoxes}>
-          <div className={css.footerBox}>
+          <address className={css.footerBox}>
             <h4 className={css.footerBox__title}>"Pokręcona"</h4>
             <h5 className={css.footerBox__title}>Karolina Żamojtel</h5>
             <p className={css.footerBox__description}>ul. Partyzantów 31</p>
             <p className={css.footerBox__description}>22-500 Hrubieszów</p>
-          </div>
-          <div className={css.footerBox}>
+          </address>
+          <address className={css.footerBox}>
             <h4 className={css.footerBox__title}>Kontakt</h4>
             <p className={css.footerBox__description}>
               <b>Telefon:</b>
@@ -39,7 +39,7 @@ const Footer = () => {
             <p className={css.footerBox__description}>
               pokreconastylistka@gmail.com
             </p>
-          </div>
+          </address>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Zapraszamy</h4>
 

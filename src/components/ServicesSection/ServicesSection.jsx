@@ -9,9 +9,6 @@ import pricings from "../../../data/pricings.json";
 import Service from "../Service/Service";
 
 const ServicesSection = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-  });
   const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const isTablet = useMediaQuery({
@@ -49,8 +46,6 @@ const ServicesSection = () => {
               <Service
                 title={price.Category}
                 backgroundImage={getBackgroundImage(`${price.Picture}`)}
-               
-             
               />
               <p className={css.serviceBox__overlay}>Sprawdź ofertę</p>
             </Link>
