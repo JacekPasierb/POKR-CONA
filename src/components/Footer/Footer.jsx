@@ -32,13 +32,18 @@ const Footer = () => {
               <b>Telefon:</b>
             </p>
 
-            <p className={css.footerBox__description}>(+48) 666 589 222</p>
+            <a href="tel:+48666589222" className={css.footerBox__description}>
+              (+48) 666 589 222
+            </a>
             <p className={css.footerBox__description}>
               <b>E-mail:</b>
             </p>
-            <p className={css.footerBox__description}>
+            <a
+              href="mailto:pokreconastylistka@gmail.com"
+              className={css.footerBox__description}
+            >
               pokreconastylistka@gmail.com
-            </p>
+            </a>
           </address>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Zapraszamy</h4>

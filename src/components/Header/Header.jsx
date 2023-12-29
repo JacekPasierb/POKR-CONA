@@ -50,7 +50,9 @@ const Header = () => {
             <svg className={`${css.icon}`}>
               <use href={sprite + `#icon-phone`}></use>
             </svg>
-            <p className={css.headerContact__text}>+48 666 589 222</p>
+            <a href="tel:+48666589222" className={css.headerContact__text}>
+              +48 666 589 222
+            </a>
           </div>
         </address>
       </div>
