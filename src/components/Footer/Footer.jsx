@@ -26,7 +26,7 @@ const Footer = () => {
             <p className={css.footerBox__description}>ul. Partyzantów 31</p>
             <p className={css.footerBox__description}>22-500 Hrubieszów</p>
           </address>
-          <address className={css.footerBox}>
+          <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Kontakt</h4>
             <p className={css.footerBox__description}>
               <b>Telefon:</b>
@@ -44,7 +44,7 @@ const Footer = () => {
             >
               pokreconastylistka@gmail.com
             </a>
-          </address>
+          </div>
           <div className={css.footerBox}>
             <h4 className={css.footerBox__title}>Zapraszamy</h4>
 

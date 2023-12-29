@@ -37,7 +37,7 @@ const Header = () => {
             }
           />
         )}
-        <address className={css.headerContact}>
+        <div className={css.headerContact}>
           <div className={css.headerContact__call}>
             <svg className={`${css.icon}`}>
               <use href={sprite + `#icon-address-card-o`}></use>
@@ -54,7 +54,7 @@ const Header = () => {
               +48 666 589 222
             </a>
           </div>
-        </address>
+        </div>
       </div>
     </header>
   );
