@@ -12,7 +12,7 @@
   font-weight: 400;
   color: var(--color-text-button);
 
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.250s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
