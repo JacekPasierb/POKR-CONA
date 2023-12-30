@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
-
+import { nanoid } from "nanoid";
 import css from "./ServicesSection.module.css";
 import TitleSection from "../TitleSection/TitleSection";
 import pricings from "../../../data/pricings.json";
@@ -41,8 +41,8 @@ const ServicesSection = () => {
       <TitleSection title1="Zakres usług" title2="Zadbaj o siebie" />
       <ul className={css.cards}>
         {pricings.map((price) => (
-          <li key={price.id} className={css.card}>
-            <Link to={`/pricing#${price.Picture}`} className={css.link}>
+          <li key={nanoid()} className={css.card}>
+            <Link to={`/pricing`} className={css.link}>
               <Service
                 title={price.Category}
                 backgroundImage={getBackgroundImage(`${price.Picture}`)}

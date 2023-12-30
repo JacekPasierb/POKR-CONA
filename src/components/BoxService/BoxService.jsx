@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import PropTypes from "prop-types";
-
+import { nanoid } from "nanoid";
 import css from "./BoxService.module.css";
 
 import TitlePricing from "../TitlePricing/TitlePricing";
@@ -18,7 +18,7 @@ const BoxService = ({ pricing, service }) => {
       {service.options && service.options.length > 0 && (
         <ul className={css.sectionServices}>
           {service.options.map((option) => (
-            <li key={option.id}>
+            <li key={nanoid()}>
               <div className={css.serviceItem}>
                 <p>{option.option}</p>
                 <div>
@@ -36,20 +36,13 @@ const BoxService = ({ pricing, service }) => {
 };
 
 BoxService.propTypes = {
-  pricing: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      Category: PropTypes.string.isRequired,
-      Services: PropTypes.array.isRequired,
-    })
-  ).isRequired,
+  pricing: PropTypes.object.isRequired,
   service: PropTypes.shape({
     name: PropTypes.string.isRequired,
     options: PropTypes.arrayOf(
       PropTypes.shape({
-        id: PropTypes.number.isRequired,
         option: PropTypes.string.isRequired,
-        value: PropTypes.string.isRequired,
+        price: PropTypes.string.isRequired,
       })
     ).isRequired,
   }),
